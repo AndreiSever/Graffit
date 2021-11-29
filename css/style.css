@@ -206,7 +206,7 @@ nav .d-flex input:focus{
     padding-top: 112px;
     padding-bottom: 114px;
 }
-.section-1 .form{
+ .form{
     display: flex;
     background: #FFFFFF;
     width: 499px;
@@ -214,7 +214,7 @@ nav .d-flex input:focus{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.section-1 .form>div{
+ .form>div{
     margin: 0 auto;
     width: 479px;
     border: 1px dashed #AEAEAE;
@@ -225,52 +225,51 @@ nav .d-flex input:focus{
     padding-left: 40px;
     padding-right: 40px;
 }
-.section-1 legend{
+ legend{
     margin-bottom: 30px;
 }
-.section-1 legend>div:nth-of-type(1){
+ legend>div:nth-of-type(1){
     text-align: center;
 }
-.section-1 legend{
+ legend{
     line-height: 24px;
 }
-.section-1 .form-group{
+.form-group{
     margin-top: 15px;
     margin-bottom: 0;
 }
-.section-1 .form-check .form-check-input{
+ .form-check .form-check-input{
     width: 18px;
     height: 18px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 2px;
     background-color: #FFFFFF;
 }
-.section-1 .form-check .form-check-input:checked {
+ .form-check .form-check-input:checked {
     border: 1px solid #000000;
     background-image:url("/icons/check2.svg");
 }
-.section-1 .form-check .form-check-input:not(:checked):hover{
-    border: 1px solid black;
+ .form-check .form-check-input:not(:checked):hover{
+    border: 1px solid rgba(0, 0, 0, 1);
 }
-.section-1 .form-check .form-check-input:checked:focus {
+ .form-check .form-check-input:checked:focus {
     box-shadow: none; 
 }
-.section-1 .form-check .form-check-input:not(:checked):focus {
+ .form-check .form-check-input:not(:checked):focus {
     box-shadow: none; 
-    border: 1px solid rgba(0, 0, 0, 0.25); 
 }
-.section-1 .form-check .form-check-input:not(:checked):active {  
+ .form-check .form-check-input:not(:checked):active {  
     box-shadow: none;
     border: 1px solid rgba(0, 0, 0, 0.25);  
 }
 .form-check-label{
     margin-left: 6px;
 }
-.section-1 .form_butn{
+ .form_butn{
     padding-top: 10px;
     width: 394px;
 }
-.section-1 .form_butn .text_btn{
+ .form_butn .text_btn{
     padding-top: 14px;
     padding-bottom: 14px;
 }

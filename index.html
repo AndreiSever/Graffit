@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="css/style.css">
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>        
         <script src="js/custom.js"></script>
@@ -50,9 +50,44 @@
                         </div>
                     </div>
                     <div class="header_butn">
-                        <div class="btn text_btn text_size-18">Заказать звонок</div>
+                        <div class="btn text_btn text_size-18 header_butn-submit">Заказать звонок</div>
                         <div class="btn-shadow"></div>
                     </div>
+                    <div class="modal fade" id="calling" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg modal-dialog-centered">
+							<div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" id="close" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form text">
+                                        <div>
+                                            <form id="modal_form">
+                                                <legend class="text_legend text_size-20">
+                                                    <div>Нужна консультация?</div>
+                                                    <div>Заполните форму и мы перезвоним!</div>
+                                                </legend>
+                                                <div class="form-group">
+                                                    <input type="text" name="name" class="input_name  form-control text_size-14"  placeholder="Ваше имя">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="tel" name="phone" class="input_phone form-control text_size-14" placeholder="Номер телефона">
+                                                </div>
+                                                <div class="form-group form-check">
+                                                    <input class="form-check-input check-input" type="checkbox" name="checkbox" id="condition" value="agree">
+                                                    <label class="form-check-label" for="condition"><span class="text_size-12">Принимаю условия политики конфиденциальности</span></label>
+                                                </div>
+                                                <div class="form-group form_butn">
+                                                    <div class="btn text_btn text_size-18 form_butn-submit">Заказать звонок</div>  
+                                                    <div class="btn-shadow"></div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
                 </div>
             </div>
         </header>
@@ -118,23 +153,40 @@
                         </div>
                         <div class="form text">
                             <div>
-                                <legend class="text_legend text_size-20">
-                                    <div>Нужна консультация?</div>
-                                    <div>Заполните форму и мы перезвоним!</div>
-                                </legend>
-                                <div class="form-group">
-                                    <input type="text" name="email" class="input_name  form-control text_size-14"  placeholder="Ваше имя">
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" name="phone" class="input_phone form-control text_size-14" placeholder="Номер телефона">
-                                </div>
-                                <div class="form-group form-check">
-                                    <input class="form-check-input check-input" type="checkbox" id="condition" value="agree">
-                                    <label class="form-check-label" for="condition"><span class="text_size-12">Принимаю условия политики конфиденциальности</span></label>
-                                </div>
-                                <div class="form-group form_butn">
-                                    <div class="btn text_btn text_size-18">Заказать звонок</div>  
-                                    <div class="btn-shadow"></div>
+                                <form>
+                                    <legend class="text_legend text_size-20">
+                                        <div>Нужна консультация?</div>
+                                        <div>Заполните форму и мы перезвоним!</div>
+                                    </legend>
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="input_name  form-control text_size-14"  placeholder="Ваше имя">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" name="phone" class="input_phone form-control text_size-14" placeholder="Номер телефона">
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input class="form-check-input check-input" type="checkbox" name="checkbox" id="condition" value="agree">
+                                        <label class="form-check-label" for="condition"><span class="text_size-12">Принимаю условия политики конфиденциальности</span></label>
+                                    </div>
+                                    <div class="form-group form_butn">
+                                        <div class="btn text_btn text_size-18 form_butn-submit">Заказать звонок</div>  
+                                        <div class="btn-shadow"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="sending" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" id="close" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="answer_success">
+                                            <img src="image/check48.png"/>
+                                            <p class="text_word text-green text_size-50">Успешно отправлено!</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
