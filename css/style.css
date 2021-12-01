@@ -50,6 +50,9 @@
 .text_size-48{
     font-size: 48px;
 }
+.text_size-30{
+    font-size: 30px;
+}
 .text_size-36{
     font-size: 36px;
 }
@@ -79,7 +82,7 @@
     color:#FFFFFF;
 }
 .btn-shadow{
-    width: 95%;
+    width: 97%;
     padding-top: 5px;
     background: linear-gradient(180deg, #974400 0%, #C65C04 100%);
     border-radius: 0 0 5px 5px;
@@ -105,6 +108,111 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+.modal-content{
+    width: auto;
+}
+.modal-body{
+    padding: 0px;
+}
+.modal-dialog-centered{
+    justify-content: center;
+}
+.btn-close{
+    float: right;
+}
+.form{
+    display: flex;
+    background: #FFFFFF;
+    width: 499px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ .form>div{
+    margin: 0 auto;
+    width: 479px;
+    border: 1px dashed #AEAEAE;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+ legend{
+    margin-bottom: 30px;
+}
+ legend>div:nth-of-type(1){
+    text-align: center;
+}
+ legend{
+    line-height: 24px;
+}
+.form-group{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+/*.form-group input{
+    line-height: 17px;
+}*/
+.form-check label{
+    line-height: 15px;
+}
+ .form-check .form-check-input{
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
+ .form-check .form-check-input:checked {
+    border: 1px solid #000000;
+    background-image:url("/icons/check2.svg");
+}
+ .form-check .form-check-input:not(:checked):hover{
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+ .form-check .form-check-input:checked:focus {
+    box-shadow: none; 
+}
+ .form-check .form-check-input:not(:checked):focus {
+    box-shadow: none; 
+}
+ .form-check .form-check-input:not(:checked):active {  
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);  
+}
+ .form_butn{
+    padding-top: 10px;
+    width: 394px;
+}
+ .form_butn .text_btn{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.was-validated .form-check-input:valid:checked{
+    background-color: #FFFFFF;
+}
+.was-validated .form-check-input:valid ~ .form-check-label{
+    color: #000000;
+}
+.answer_content p{
+    display: inline-block;
+    vertical-align: middle;
+    color: green;
+}
+.form .answer_content{
+    position: relative;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.form .answer_content .btn-close{
+    position: absolute;
+    left: 92%;
+    top: 8%;
+}
+/*/////////////////////////////////////////////////////////////////////*/
 header .header{
     display: flex;
     align-items: center;
@@ -117,7 +225,7 @@ header .info>div{
 header .info>div>img{
     width: 43px;
 }
-header .text{
+header .info .text{
     display: inline-block;
     vertical-align: middle;
     margin-left: 8px;
@@ -190,7 +298,7 @@ nav .d-flex input:focus{
 }
 /*/////////////////////////////////////////////////////////////////////*/
 .section-1{
-    background: url("/image/фон\ банера.png") no-repeat center center;
+    background: url("/image/fone1.png") no-repeat center center;
     background-size: cover;
 }
 .section-1 .text_big{
@@ -206,76 +314,7 @@ nav .d-flex input:focus{
     padding-top: 112px;
     padding-bottom: 114px;
 }
- .form{
-    display: flex;
-    background: #FFFFFF;
-    width: 499px;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
- .form>div{
-    margin: 0 auto;
-    width: 479px;
-    border: 1px dashed #AEAEAE;
-    border-radius: 10px;
-    box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
- legend{
-    margin-bottom: 30px;
-}
- legend>div:nth-of-type(1){
-    text-align: center;
-}
- legend{
-    line-height: 24px;
-}
-.form-group{
-    margin-top: 15px;
-    margin-bottom: 0;
-}
- .form-check .form-check-input{
-    width: 18px;
-    height: 18px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 2px;
-    background-color: #FFFFFF;
-}
- .form-check .form-check-input:checked {
-    border: 1px solid #000000;
-    background-image:url("/icons/check2.svg");
-}
- .form-check .form-check-input:not(:checked):hover{
-    border: 1px solid rgba(0, 0, 0, 1);
-}
- .form-check .form-check-input:checked:focus {
-    box-shadow: none; 
-}
- .form-check .form-check-input:not(:checked):focus {
-    box-shadow: none; 
-}
- .form-check .form-check-input:not(:checked):active {  
-    box-shadow: none;
-    border: 1px solid rgba(0, 0, 0, 0.25);  
-}
-.form-check-label{
-    margin-left: 6px;
-}
- .form_butn{
-    padding-top: 10px;
-    width: 394px;
-}
- .form_butn .text_btn{
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-.section-1 .btn-shadow{
-    width: 384px;
-}
+
 /*/////////////////////////////////////////////////////////////////////*/
 .section-2{
     background: url("/image/Frame\ 15.png") no-repeat center center;
@@ -328,36 +367,36 @@ nav .d-flex input:focus{
     width:300px;
 }
 .section-2 .img-1{
-    background: url("/image/продукция\ 1.png") no-repeat center ;
+    background: url("/image/product1.png") no-repeat center ;
 }
 .section-2 .img-2{
-    background: url("/image/продукция\ 2.png") no-repeat center ;
+    background: url("/image/product2.png") no-repeat center ;
 }
 .section-2 .img-3{
-    background: url("/image/продукция\ 3.png") no-repeat center ;
+    background: url("/image/product3.png") no-repeat center ;
 }
 .section-2 .img-4{
-    background: url("/image/продукция\ 4.png") no-repeat center ;
+    background: url("/image/product4.png") no-repeat center ;
    
 }
 .section-2 .img-5{
-    background: url("/image/продукция\ 5.png") no-repeat center ;
+    background: url("/image/product5.png") no-repeat center ;
 }
 .section-2 .img-6{
-    background: url("/image/продукция\ 6.png") no-repeat center ;
+    background: url("/image/product6.png") no-repeat center ;
 }
 .section-2 .img-7{
-    background: url("/image/продукция\ 7.png") no-repeat center ;
+    background: url("/image/product7.png") no-repeat center ;
 }
 .section-2 .img-8{
-    background: url("/image/продукция\ 8.png") no-repeat center ;
+    background: url("/image/product8.png") no-repeat center ;
 }
 .section-2 .img-9{
-    background: url("/image/продукция\ 9.png") no-repeat center ;
+    background: url("/image/product9.png") no-repeat center ;
 }
 /*/////////////////////////////////////////////////////////////////////*/
 .section-3{
-    background: url("/image/фон\ банера2.png") no-repeat center center;
+    background: url("/image/fone2.png") no-repeat center center;
     background-size: cover;
 }
 .section-3 .container{
