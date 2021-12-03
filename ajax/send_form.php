@@ -26,7 +26,7 @@ if (isset($data['name'])&& !empty($data['name'])&& isset($data['phone'])&& !empt
   $mail->setFrom('call@opt.bum74.ru',"call");
   $mail->addReplyTo('call@opt.bum74.ru',"call");
   //$mail->addAddress('nektomor@yandex.ru'); 
-  $mail->addAddress('acheskidov@a-r-b.ru'); 
+  $mail->addAddress('apodkopaev@a-r-b.ru'); 
   $mail->addBCC('call@opt.bum74.ru',"call");
   $mail->addCC('call@opt.bum74.ru',"call");
   $mail->isHTML(true);

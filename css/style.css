@@ -296,7 +296,7 @@ nav .d-flex .search{
 nav .d-flex input:focus{
     box-shadow: none;
 }
-/*/////////////////////////////////////////////////////////////////////*/
+/*///////////////SECTION-1 MAIN/////////////////////////////*/
 .section-1{
     background: url("/image/fone1.png") no-repeat center center;
     background-size: cover;
@@ -314,6 +314,7 @@ nav .d-flex input:focus{
     padding-top: 112px;
     padding-bottom: 114px;
 }
+/*///////////////SECTION_ABOUT_COMPANY-1/////////////////////////////*/
 
 /*/////////////////////////////////////////////////////////////////////*/
 .section-2{
