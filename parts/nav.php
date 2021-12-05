@@ -1,14 +1,13 @@
 <nav class="nav-backdrop">
     <div class="container navbar">
         <div class="menu text">
-            <img src="image/Line 1.png"/>
             <a href="/about_company.php">
                 <div class="text_size-16">
                     О компании
                 </div>
             </a>
             <img src="image/Line 1.png"/>
-            <a href="/">
+            <a href="/products.php">
                 <div class="text_size-16">
                     Продукция
                 </div>
@@ -20,7 +19,7 @@
                 </div>
             </a>
             <img src="image/Line 1.png"/>
-            <a href="/">
+            <a href="/buy_grafit.php">
                 <div class="text_size-16">
                     Закуп графита
                 </div>
@@ -37,7 +36,6 @@
                     Контакты
                 </div>
             </a>
-            <img src="image/Line 1.png"/>
         </div>
         <form class="d-flex">
             <img class="search" src="image/search.png" /></img>
