@@ -55,15 +55,15 @@
                 <img class="line" src="image/right_line.png"/>
             </div>
             <div class="row list_link-1 text_big text_size-20">
-                <a class="col" href="/"><div class="col link-1 img-1"><div>Графит мелкий</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-2"><div>Графит конструкционный</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-3"><div>Науглероживатель</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-4"><div>Графит карандашный ГК. Тип кристаллический</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-1"><div>Графит природный</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-2"><div>Графит искусственный</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-3"><div>Изделия из графита</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-4"><div>Изделия футеровочные</div></div></a>
                 <a class="col" href="/"><div class="col link-1 img-5"><div>Бой графита</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-6"><div>МГ - Графиты малозольные</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-7"><div>Углепластики</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-8"><div>Смазочные графитовые стержни</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-9"><div>Лопатки из графита</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-6"><div>Антифрикционный графит</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-7"><div>Электроды графитированные</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-8"><div>Препараты коллоидно-графитовые</div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-9"><div>Угольные электроды</div></div></a>
             </div>
         </div>
     </section>

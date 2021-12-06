@@ -6,9 +6,9 @@
     <section class="product_choiced_section-1">
         <div class="container">
             <div class="title-2">
-                <img class="line" src="image/product_choiced/left_line.png"/>
+                <div class="line"><img src="image/product_choiced/left_line.png"/></div>
                 <div class="text text_size-36"><span class="text_big">Продукция</span></div>
-                <img class="line" src="image/product_choiced/right_line.png"/>
+                <div class="line"><img src="image/product_choiced/right_line.png"/></div>
             </div>
         </div>
     </section>

@@ -92,10 +92,7 @@
     padding-right: 0;
     padding-left: 0;
 }
-.line{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .header-backdrop{
     background: #FBFBF9;
 }
@@ -221,6 +218,10 @@ input[type="search"]::-webkit-search-results-decoration {
     left: 92%;
     top: 8%;
 }
+.container .title-1 .line{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .container .title-1 {
     text-align: left;
 }
@@ -228,7 +229,14 @@ input[type="search"]::-webkit-search-results-decoration {
     line-height: 44px;
     display: inline-block;
 }
+.container .title-2 .line{
+    padding-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .container .title-2 {
+    display:flex;
+    justify-content: center;
     text-align: center;
 }
 .container .title-2 .text{
@@ -246,6 +254,31 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .list_link-3 .col{
     flex: 0 0 0%;
+}
+.list_link-2{  
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 0px;  
+    width: 100%;
+}
+.list_link-2 a{ 
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ .list_link-2 .link-2{
+    margin-top: 30px;
+    min-width: 262px;
+    transition:  transform 124ms linear;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+
+}
+.list_link-2 .link-2 img{
+    border-radius: 10px 10px 0 0;
+}
+.list_link-2 .link-2:hover{
+    transform: scale(1.05);
 }
 .list_link-3{ 
     justify-content: space-between; 
@@ -359,7 +392,7 @@ ol li>a:hover{
     color: #886344;
 }
 .paragraph{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 /*/////////////////////HEADER////////////////////////////////*/
 header .header{
@@ -531,6 +564,30 @@ nav .d-flex input:focus{
 .buy_grafit_section-1 .container>.title-2 .text_big{
     color: #FFFFFF;
 }
+/*///////////////GUIDE_SECTION-1/////////////////////////////*/
+.guide_section-1{
+    background: url("/image/guide/guide-section-1.png") no-repeat center center;
+    background-size: cover;
+}
+.guide_section-1 .container{
+    padding-top: 133px;
+    padding-bottom: 133px;
+}
+.guide_section-1 .container>.title-2 .text_big{
+    color: #FFFFFF;
+}
+/*///////////////CONTACTS_SECTION-1/////////////////////////////*/
+.contacts_section-1{
+    background: url("/image/contacts/contacts_section-1.png") no-repeat center center;
+    background-size: cover;
+}
+.contacts_section-1 .container{
+    padding-top: 133px;
+    padding-bottom: 133px;
+}
+.contacts_section-1 .container>.title-2 .text_big{
+    color: #FFFFFF;
+}
 /*///////////////////////////SECTION-2 MAIN/////////////////////////*/
 .section-2{
     background: url("/image/Frame\ 15.png") no-repeat center center;
@@ -568,12 +625,9 @@ nav .d-flex input:focus{
     transform: scale(1.05);
 }
 .section-2 .link-1>div{
-    width: 234px;
+    width: 244px;
 }
-.section-2 .list_link-1 .img-4>div{
-    width:279px;
-}
-.section-2 .list_link-1 .img-6>div{
+.section-2 .list_link-1 .img-8>div{
     width:300px;
 }
 .section-2 .list_link-1 .img-1{
@@ -663,6 +717,25 @@ nav .d-flex input:focus{
     margin-top: 40px;
     width:100%;
 }
+/*///////////////GUIDE_SECTION-2/////////////////////////////*/
+.guide_section-2 .container{
+    padding-bottom: 100px;
+}
+.guide_section-2 .list_link-2 .link-2 .text_big{
+    line-height: 24px;
+    color: #FF8F32;
+}
+.guide_section-2 .list_link-2 .link-2 .text{
+    margin-top: 15px;
+    line-height: 24px;
+    color: black;
+}
+.guide_section-2 .list_link-2 .link-2>div:last-of-type{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 /*///////////////////SECTION-3 MAIN///////////////////////////////*/
 .section-3{
     background: url("/image/fone2.png") no-repeat center center;
@@ -701,31 +774,8 @@ nav .d-flex input:focus{
 .about_company_section-3 .container>.title-2 .text_big{
     color: #000000;
 }
-.about_company_section-3 .list_link-2{  
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 0px;  
-    width: 100%;
-}
-.about_company_section-3 .list_link-2 a{ 
-    text-decoration: none;
-    color: #FFFFFF;
-}
-.about_company_section-3 .list_link-2 .link-2{
-    margin-top: 30px;
-    min-width: 262px;
-    min-height:377px;
-    text-align: center; 
-    transition:  transform 124ms linear;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
-}
-.about_company_section-3 .list_link-2 .link-2 img{
-    border-radius: 10px 10px 0 0;
-}
-.about_company_section-3 .list_link-2 .link-2:hover{
-    transform: scale(1.05);
+.about_company_section-3 .list_link-2{
+    text-align: center;
 }
 .about_company_section-3 .list_link-2 .link-2 .text_big{
     line-height: 22px;
@@ -738,6 +788,8 @@ nav .d-flex input:focus{
 .about_company_section-3 .list_link-2 .link-2>div:last-of-type{
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /*///////////////PRODUCT_SECTION-3/////////////////////////////*/
 .products_section-3 .container{
@@ -794,6 +846,15 @@ nav .d-flex input:focus{
     max-height: 485px;
 }
 .buy_grafit_section-3 .container{
+    padding-top: 40px;
+}
+/*///////////////GUIDE_SECTION-3/////////////////////////////*/
+.guide_section-3{
+    background: url("/image/guide/guide_section-3.png") no-repeat center center;
+    background-size: cover;
+    max-height: 485px;
+}
+.guide_section-3 .container{
     padding-top: 40px;
 }
 /*/////////////////////////SECTION-4 MAIN/////////////////////////////////*/
@@ -872,12 +933,27 @@ nav .d-flex input:focus{
 .production_section-4 .container .text{
     line-height: 24px;
 }
-.production_section-4 .container>.text>div:last-of-type{
-    margin-top: 25px;
-}
 /*///////////////BUY_GRAFIT_SECTION-4/////////////////////////////*/
 .buy_grafit_section-4 .container{
     padding-top: 185px;
+}
+/*///////////////GUIDE_SECTION-4/////////////////////////////*/
+.guide_section-4 .container{
+    padding-top: 185px;
+}
+/*///////////////CONTACTS_SECTION-4/////////////////////////////*/
+.contacts_section-4 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 227px;
+    padding-bottom: 100px;
+}
+.contacts_section-4 .container>div:first-of-type{
+    width: 577px;
+}
+.contacts_section-4 .container>div>.text{
+    margin-top: 40px;
 }
 /*/////////////////SECTION-5 MAIN//////////////////////////////////*/
 .section-5{

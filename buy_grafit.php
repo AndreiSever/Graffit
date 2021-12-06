@@ -6,9 +6,9 @@
     <section class="buy_grafit_section-1">
         <div class="container">
             <div class="title-2">
-                <img class="line" src="image/production/left_line.png"/>
+                <div class="line"><img src="image/production/left_line.png"/></div>
                 <div class="text text_size-36"><span class="text_big">Закуп графита</span></div>
-                <img class="line" src="image/production/right_line.png"/>
+                <div class="line"><img src="image/production/right_line.png"/></div>
             </div>
         </div>
     </section>

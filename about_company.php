@@ -6,9 +6,9 @@
     <section class="about_company_section-1">
         <div class="container">
             <div class="title-2">
-                <img class="line" src="image/about_company/left_line.png"/>
+                <div class="line"><img src="image/about_company/left_line.png"/></div>
                 <div class="text text_size-36"><span class="text_big">О компании</span></div>
-                <img class="line" src="image/about_company/right_line.png"/>
+                <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
         </div>
     </section>
@@ -33,9 +33,9 @@
     <section class="about_company_section-3">
         <div class="container">
             <div class="title-2">
-                <img class="line" src="image/about_company/left_line.png"/>
+                <div class="line"><img src="image/about_company/left_line.png"/></div>
                 <div class="text text_size-36">Наши <span class="text_big">сотрудники</span></div>
-                <img class="line" src="image/about_company/right_line.png"/>
+                <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
             <div class="row list_link-2 text_big text_size-20">
                 <a class="col flex_none" href="/">

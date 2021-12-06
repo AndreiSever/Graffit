@@ -25,13 +25,13 @@
                 </div>
             </a>
             <img src="image/Line 1.png"/>
-            <a href="/">
+            <a href="/guide.php">
                 <div class="text_size-16">
                     Справочник
                 </div>
             </a>
             <img src="image/Line 1.png"/>
-            <a href="/">
+            <a href="/contacts.php">
                 <div class="text_size-16">
                     Контакты
                 </div>

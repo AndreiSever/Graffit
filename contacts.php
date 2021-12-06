@@ -3,16 +3,16 @@
     require_once $_SERVER['DOCUMENT_ROOT'].'/parts/nav.php';
 ?>
 <main>
-    <section class="production_section-1">
+    <section class="contacts_section-1">
         <div class="container">
             <div class="title-2">
-                <div class="line"><img  src="image/production/left_line.png"/></div>
-                <div class="text text_size-36"><span class="text_big">Терморасширенный графит и изделия из него</span></div>
-                <div class="line"><img  src="image/production/right_line.png"/></div>
+                <div  class="line"><img src="image/production/left_line.png"/></div>
+                <div class="text text_size-36"><span class="text_big">Контакты</span></div>
+                <div  class="line"><img src="image/production/right_line.png"/></div>
             </div>
         </div>
     </section>
-    <section class="production_section-2">
+    <section class="contacts_section-2">
         <div class="container">
             <div class="text text_size-16">
                 <div>
@@ -55,47 +55,8 @@
             </div>
         </div>
     </section>
-    <section class="production_section-3">
-        <div class="container">
-            <table>
-                <thead class="text_big text_size-16">
-                    <tr>
-                        <th>Материал</th>
-                        <th>Диапазон температур °С</th>
-                        <th>Химическая стойкость</th>
-                        <th>Химическая стойкость</th>
-                        <th>Примечания</th>
-                    </tr>
-                </thead>
-                <tbody class="text text_size-14">
-                    <tr>
-                        <td>
-                            Терморасширенный графит ТРГ
-                        </td>
-                        <td>
-                            -200 … +500
-                            до +3000 в вакууме
-                            или инертной среде
-                        </td>
-                        <td>
-                            Стоек к большинству агрессивных сред
-                        </td>
-                        <td>
-                            Сохраняет высокие упругие харак­теристики и прочность во всем диапазоне температур. Упругие деформации >15%
-                        </td>
-                        <td>
-                            Не теряет массу,
-                            сохраняет высокие
-                            характеристики
-                            при длительной
-                            эксплуатации.
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
-    <section class="production_section-4">
+
+    <section class="contacts_section-3">
         <div class="container">
             <div class="text text_size-16">
                 <div>
@@ -107,37 +68,30 @@
             </div>
         </div>
     </section>
-    <section class="production_section-5">
+    <section class="contacts_section-4">
         <div class="container">
-            <div class="form form-2 text">
+            <div>
+                <div class="title-1">
+                    <div class="text text_size-36">Появились <span class="text_big">вопросы?</span></div>
+                    <img class="line" src="image/right_line.png"/>
+                </div>
+                <div class="text text_size-16">
+                    Подробно расскажем о наших товарах,
+                    об атуальных акциях, рассчитаем стоимость и
+                    подготовим индивидуальное предложение!
+                </div>
+            </div>
+            <div class="form text">
                 <div>
                     <form class="needs-validation" novalidate>
                         <div class="form-group">
-                            <input type="text" name="company" class="form-control text_size-14"  placeholder="Компания" required>
+                            <input type="text" name="name" class=" input_name  form-control text_size-14"  placeholder="Ваше имя" required>
                             <div class="invalid-feedback">
                                 Поле пустое!
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control text_size-14"  placeholder="Ваше имя" required>
-                            <div class="invalid-feedback">
-                                Поле пустое!
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" name="phone" class="form-control text_size-14" placeholder="Номер телефона" required>
-                            <div class="invalid-feedback">
-                                Поле пустое!
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="email" class="form-control text_size-14"  placeholder="E-mail" required>
-                            <div class="invalid-feedback">
-                                Поле пустое!
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="text" class="form-control text_size-14" placeholder="Текст заявки" rows="3" required></textarea>
+                            <input type="tel" name="phone" class=" input_phone form-control text_size-14" placeholder="Номер телефона" required>
                             <div class="invalid-feedback">
                                 Поле пустое!
                             </div>
@@ -150,7 +104,7 @@
                             </div>
                         </div>
                         <div class="form-group form_butn">
-                            <div  class="btn text_btn text_size-18 form_butn-submit">Заказать</div>  
+                            <div  class="btn text_btn text_size-18 form_butn-submit">Заказать звонок</div>  
                             <div class="btn-shadow"></div>
                         </div>
                     </form>
