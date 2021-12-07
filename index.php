@@ -91,35 +91,35 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col"><img src="/image/partner1.png"/></div>
-                            <div class="col"><img src="/image/partner2.png"/></div>
-                            <div class="col"><img src="/image/partner3.png"/></div>
-                            <div class="col"><img src="/image/partner4.png"/></div>
-                        </div>
-                        </div>
-                        <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col"><img src="/image/partner1.png"/></div>
-                            <div class="col"><img src="/image/partner2.png"/></div>
-                            <div class="col"><img src="/image/partner3.png"/></div>
-                            <div class="col"><img src="/image/partner4.png"/></div>
-                        </div>
+                            
+                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner4.png"/></a></div>
+                            
                         </div>
                         <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col"><img src="/image/partner1.png"/></div>
-                            <div class="col"><img src="/image/partner2.png"/></div>
-                            <div class="col"><img src="/image/partner3.png"/></div>
-                            <div class="col"><img src="/image/partner4.png"/></div>
-                        </div>
+                            <div class="row">
+                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner4.png"/></a></div>
+                            </div>
                         </div>
                         <div class="swiper-slide">
-                        <div class="row">
-                            <div class="col"><img src="/image/partner1.png"/></div>
-                            <div class="col"><img src="/image/partner2.png"/></div>
-                            <div class="col"><img src="/image/partner3.png"/></div>
+                            <div class="row">
+                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner4.png"/></a></div>
+                            </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
+                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -128,8 +128,6 @@
         </div>
     </section>
     <section class="section-5">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51582.03780340544!2d61.30120388550496!3d55.1548311530486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c593a9ae38207d%3A0xce34b449758bcec3!2z0YPQuy4g0KHQsNC70LDQstCw0YLQsCDQrtC70LDQtdCy0LAsIDI1LCDQp9C10LvRj9Cx0LjQvdGB0LosINCn0LXQu9GP0LHQuNC90YHQutCw0Y8g0L7QsdC7LiwgNDU0MDAz!5e0!3m2!1sru!2sru!4v1638116234138!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
         <div class="container">  
             <div class="contacts_form text">
                 <div>
@@ -153,29 +151,30 @@
                         <div>
                             <img src="image/icon.png"/>
                             <div class="text">
-                                <div class="text_size-16">г. Челябинск, ул. С.Юлаева, 25</div>
+                                <div class="text_size-16"><a href="/contacts.php">г. Челябинск, ул. С.Юлаева, 25</a></div>
                             </div>
                         </div>
                     </div>
                     <div>
                         Наши филиалы в <span class="text_big text_size-18">других городах России</span>
                     </div>
+                    
                     <div>
                         <div class="text text_size-16 city">
-                            <div>Москва</div>
-                            <div>Санкт-Петербург</div>
-                            <div>Ростов-на-Дону</div>
-                            <div>Екатеринбург</div>
-                            <div>Пермь</div>
-                            <div>Тюмень</div>
+                            <div><a href="/contacts.php">Москва</a></div>
+                            <div><a href="/contacts.php">Санкт-Петербург</a></div>
+                            <div><a href="/contacts.php">Ростов-на-Дону</a></div>
+                            <div><a href="/contacts.php">Екатеринбург</a></div>
+                            <div><a href="/contacts.php">Пермь</a></div>
+                            <div><a href="/contacts.php">Тюмень</a></div>
                         </div>
                         <div class="text text_size-16 city">
-                            <div>Нижний Новгород</div>
-                            <div>Самара</div>
-                            <div>Воронеж</div>
-                            <div>Казань</div>
-                            <div>Волгоград</div>
-                            <div>Казахстан</div>
+                            <div><a href="/contacts.php">Нижний Новгород</a></div>
+                            <div><a href="/contacts.php">Самара</a></div>
+                            <div><a href="/contacts.php">Воронеж</a></div>
+                            <div><a href="/contacts.php">Казань</a></div>
+                            <div><a href="/contacts.php">Волгоград</a></div>
+                            <div><a href="/contacts.php">Казахстан</a></div>
                         </div>
                     </div>
                 </div>

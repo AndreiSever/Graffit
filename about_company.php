@@ -18,13 +18,13 @@
                 <div>
                     Компания «Графит Сервис» с 2000 года предоставляет услуги производства и оптовой продажи графита, графитовых изделий по территории России и за пределами. Продукция сертифицирована и сопровождается необходимой документацией.
                 </div>
-                <br>
-                <div>
+                
+                <div class="paragraph">
                     Заказать изделия из графита можно на сайте, заполнив форму заявки или по телефону, связавшись с менеджерами компании. Для постоянных клиентов предусмотрена программа лояльности. До транспорта фирм по перевозке предусмотрена бесплатная доставка.
                     Компания «Графит Сервис» с 2000 года предоставляет услуги производства и оптовой продажи графита, графитовых изделий по территории России и за пределами. Продукция сертифицирована и сопровождается необходимой документацией.
                 </div>
-                <br>
-                <div>
+                
+                <div class="paragraph">
                     Заказать изделия из графита можно на сайте, заполнив форму заявки или по телефону, связавшись с менеджерами компании. Для постоянных клиентов предусмотрена программа лояльности. До транспорта фирм по перевозке предусмотрена бесплатная доставка.
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
             <div class="row list_link-2 text_big text_size-20">
-                <a class="col flex_none" href="/">
+                <a class="col" href="/">
                     <div class="col link-2">
                         <div>
                             <img src="image/about_company/worker.png"/>
@@ -89,7 +89,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col flex_none" href="/">
+                <a class="col" href="/">
                     <div class="col link-2">
                         <div >
                             <img src="image/about_company/worker.png"/>
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col flex_none" href="/">
+                <a class="col" href="/">
                     <div class="col link-2">
                         <div >
                             <img src="image/about_company/worker.png"/>
@@ -157,7 +157,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col flex_none" href="/">
+                <a class="col" href="/">
                     <div class="col link-2">
                         <div >
                             <img src="image/about_company/worker.png"/>

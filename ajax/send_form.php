@@ -1,8 +1,8 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
-require '../PHPMailer/src/PHPMailer.php';
-require '../PHPMailer/src/SMTP.php';
-require '../PHPMailer/src/Exception.php'; 
+require '../phpmailer/src/PHPMailer.php';
+require '../phpmailer/src/SMTP.php';
+require '../phpmailer/src/Exception.php'; 
 // Создаем письмо
 $json = file_get_contents('php://input');
 $data = json_decode($json,true);

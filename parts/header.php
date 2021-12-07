@@ -31,21 +31,31 @@
                             <img src="image/Group 23.png"/>
                             <div class="text">
                                 <div class="text_size-16"><a href="mailto:info@graphitservis.ru">info@graphitservis.ru</a></div>
-                                <div class="text_size-12">пн-вс 9:00-19:00 </div>
+                                <div class="text_size-12">
+                                    <ul class="green_marker">
+                                        <li><span>пн-вс 9:00-19:00</span></li>
+                                    </ul> 
+                                </div>
                             </div>
                         </div>
                         <div>
                             <img src="image/Group 22.png"/>
                             <div class="text">
                                 <div class="text_size-16"><a href="tel:+73517299915">+7 (351) 729-99-15</a></div>
-                                <div class="text_size-12">пн-вс 9:00-19:00 </div>
+                                <div class="text_size-12">
+                                    <ul class="green_marker">
+                                        <li><span>пн-вс 9:00-19:00</span></li>
+                                    </ul>                                      
+                                </div>
                             </div>
                         </div>
                         <div>
                             <img src="image/icon.png"/>
                             <div class="text">
-                                <div class="text_size-16">г. Челябинск,</div>
-                                <div class="text_size-16">ул. С.Юлаева, 25</div>
+                                <a href="/contacts.php">
+                                    <div class="text_size-16">г. Челябинск,</div>
+                                    <div class="text_size-16">ул. С.Юлаева, 25</div>
+                                </a>    
                             </div>
                         </div>
                     </div>

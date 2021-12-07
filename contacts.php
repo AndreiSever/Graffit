@@ -15,55 +15,136 @@
     <section class="contacts_section-2">
         <div class="container">
             <div class="text text_size-16">
-                <div>
+                <div class="text_big text_size-20">ЗАО "Графитсервис"</div>
+                <div class="info">
                     <div>
-                        Графит терморасширенный от производителя из наличия со склада, оперативная доставка по России и СНГ, онлайн-заказ. Скидки на терморасширенный графит постоянным закупщикам.
-                        Терморасширенный графит (ТРГ) – графитовый материал, в котором отсутствуют смолы и неорганические наполнители. ТРГ графит не плавится, но все-таки подвержен возгону при температурных режимах выше 3300 °С. Терморасширенный графит - отличный материал для сальниковых набивок, дополнительно к материалу для плоских прокладок и наполнителем в спирально-навитых прокладках.
+                        <img src="image/contacts/phone.png"/>
+                        <div class="text">
+                            <div class="text_size-16"><a href="mailto:info@graphitservis.ru">info@graphitservis.ru</a></div>
+                        </div>
                     </div>
                     <div>
-                        <span class="text_big">Применение:</span> ТРГ хорошо зарекомендовал себя при высоких температурах. Рекомендуется для работы на теплоносители и деминерализованную воду.
-                        Терморасширенный графит не горюч, не поддерживает горение, невзрывоопасен, не токсичен.
+                        <img src="image/contacts/email.png"/>
+                        <div class="text">
+                            <div class="text_size-16"><a href="tel:+73517299915">+7 (351) 729-99-15</a></div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="image/contacts/location.png"/>
+                        <div class="text">
+                            <div class="text_size-16"><a href="/contacts.php">г. Челябинск, ул. С.Юлаева, 25</a></div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="image/production/image-right.png"/>
-                </div>
-            </div>
-            <div class="text_big head_ul text_size-18">Этапы производства терморасширенного графита:</div>
-            <div class="text">
-                <ul class="text_size-16">
-                    <li>
-                        <span>
-                            Кристаллический графит подвергают окисливанию. Окисление сводится к введению молекул и ионов азотной или серной кислоты
-                            с окислителем промежь слоев кристаллической решетки графита. Окисленный графит отмывают и подвергают сушке.
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            Окисленный графит подогревают со скоростью 400-600 °С/с. Из-за чрезвычайно высокой скорости нагрева наблюдается резкое
-                            выделение из кристаллической решетки графита газообразных продуктов разложения внедренной серной кислоты. В следствии
-                            чего межслойное расстояние увеличивается ориентировочно в 300 раз, и чешуйка графита становится волокном длиной 6-10 мм.
-                            Уже в полученном продукте остается небольшое количество оксидов серы или азота в зависимости от применяемой технологии.
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            Полученный ТРГ прокатывают, иногда армируют, добавляют различные присадки и прессуют для получения различных изделий.
-                        </span>
-                    </li>
+                <div class="text_big text_size-18 head_ul">Банковские реквизиты:</div>
+                <ul class="marker_none"> 
+                    <li>ИНН 7447045879/744801001</li>
+                    <li>Р/С 40702810672190001211</li>
+                    <li>в Челябинском ОСБ РФ №8597</li>
+                    <li>в Калиниском ОСБ №8544</li>
+                    <li>к/с 30101810700000000602</li>
+                    <li>БИК 047501602</li>
                 </ul>
+                <div class="text_big text_size-18 head_ul">Реквизиты для отправки багажа:</div>
+                <ul class="marker_none">
+                    <li>Челябинск-Багажное</li>
+                    <li>Получатель: ЗАО "Графитсервис"</li>
+                </ul>
+                <div class="text_big text_size-18 head_ul">Директор:</div>
+                <div class="paragraph">Федоренко Елена Валентиновна</div>
+            </div>
+            <div class="map">
+                <img src="image/contacts/map.png"/>
             </div>
         </div>
     </section>
-
     <section class="contacts_section-3">
         <div class="container">
-            <div class="text text_size-16">
-                <div>
-                Графит сальниковый от компании «ГрафитСервис». Мы предлагаем поставки графита сальникового в любых объемах, как по всей России, так и в страны СНГ. На такой графит имеются сертификаты качества. Качественно выполненный графит сальниковый с доставкой от компании «ГрафитСервис».
+            <div class="text_big text_size-20">Наши филиалы в других городах России</div>
+            <div class="row list_link-3 text text_size-16">
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Москва</div>
+                    <div><span class="text_big">Фактический адрес:</span> 109316 Москва, ул. Рябиновая, 51а</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="paragraph">
-                    <span class="text_big">Отличительной особенностью</span> терморасширенного графита является его пластичность, позволяющая формировать изделия из него без связующих веществ. Терморасширенный графит используется для изготовления различных уплотнителей: сальниковая набивка графитовая, сальниковые кольца, графитовая фольга, фланцевые прокладки и др. Также сальниковый графит придает уплотнительным изделиям непроницаемость для газов и жидкостей. Причем уплотнительные изделия из него оказывают минимальное воздействие на рабочие поверхности, экологически безопасны и не имеют ограничений по использованию в бытовых условиях, долговечнее и дешевле традиционных.
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Санкт-Петербург</div>
+                    <div><span class="text_big">Фактический адрес:</span> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Москва</div>
+                    <div><span class="text_big">Фактический адрес:</span> 109316 Москва, ул. Рябиновая, 51а</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Санкт-Петербург</div>
+                    <div><span class="text_big">Фактический адрес:</span> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Москва</div>
+                    <div><span class="text_big">Фактический адрес:</span> 109316 Москва, ул. Рябиновая, 51а</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Санкт-Петербург</div>
+                    <div><span class="text_big">Фактический адрес:</span> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Москва</div>
+                    <div><span class="text_big">Фактический адрес:</span> 109316 Москва, ул. Рябиновая, 51а</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Санкт-Петербург</div>
+                    <div><span class="text_big">Фактический адрес:</span> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Москва</div>
+                    <div><span class="text_big">Фактический адрес:</span> 109316 Москва, ул. Рябиновая, 51а</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Санкт-Петербург</div>
+                    <div><span class="text_big">Фактический адрес:</span> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Москва</div>
+                    <div><span class="text_big">Фактический адрес:</span> 109316 Москва, ул. Рябиновая, 51а</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
+                </div>
+                <div class="col link-3">
+                    <div class="text_big text_size-18">ГрафитСервис - Санкт-Петербург</div>
+                    <div><span class="text_big">Фактический адрес:</span> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
+                    <div><a href="tel:8800333-04-61"><span class="text_big">Телефон:</span> 8 (800) 333-04-61</a></div>
+                    <div><a href="mailto: msk@graphitservis.ru"><span class="text_big">E-mail:</span> msk@graphitservis.ru</a></div>
+                    <div><span class="text_big">Время работы:</span> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
             </div>
         </div>
@@ -111,9 +192,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="production_section-6">
-        <div class="container"></div>
     </section>
 </main>
 <?php

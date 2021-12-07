@@ -3,6 +3,7 @@ $(function(){
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+          spaceBetween: 300,
           renderBullet: function (index, className) {
             
             return '<span class="' + className + '">' + "</span>";
