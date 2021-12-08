@@ -444,16 +444,14 @@ header .info .text{
     margin-left: 8px;
     margin-right: 10px;
 }
-header .info .green_marker{
-    margin: 0;
+header .info .green_circle{
+    display: flex;
+    line-height: 14.63px;
+    align-items: center;
 }
-header .info .green_marker li{
-    margin: 0;
-    color: #40C351;
-}
-header .info .green_marker li span{
-    position: relative;
-    left: -5px;
+header .info .green_circle>div{
+    padding-left: 5px;
+    color: #5F5F5F;
 }
 header .text .text_size-16{
     color: #000000;
@@ -836,8 +834,17 @@ nav .d-flex input:focus{
     display: flex;
     margin-top: 50px;
 }
+.section-3 .col img{
+    border-radius: 41px;
+    box-shadow: 2px 2px 20px 1px rgba(0 0 0 / 1%), 
+                2px -2px 20px 1px rgba(0 0 0 / 1%), 
+                -2px 2px 20px 1px rgba(0 0 0 / 1%), 
+                -2px -2px 20px 1px rgba(0 0 0 / 1%);
+}
 .section-3 .col>div{
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 35px;
 }
 /*///////////////ABOUT_COMPANY_SECTION-3/////////////////////////////*/
 .about_company_section-3{
@@ -991,7 +998,7 @@ nav .d-flex input:focus{
     margin-top: 30px;
 }
 .section-4 .swiper-slide {
-    text-align: center;
+    /*text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -1003,20 +1010,39 @@ nav .d-flex input:focus{
     -webkit-box-align: center;
     -ms-flex-align: center;
     -webkit-align-items: center;
-    align-items: center;
+    align-items: center;*/
+}
+.section-4 .swiper-slide .row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    /*margin-left: -20px;*/
 }
 .section-4 .swiper-slide .col {
+    max-width: 262px;
+    max-height: 177px;
+    margin-right: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.09), 10px -10px 15px 1px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-left: 10px solid #FF8F32;
     /*margin-left: -20px;*/
 }
 .section-4 .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: auto;
     object-fit: cover;
 }
 .section-4 .swiper-pagination{
     position:relative;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .section-4 .swiper-pagination-bullet:first-of-type {

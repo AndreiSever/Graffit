@@ -74,10 +74,10 @@
                 <img class="line" src="image/right_line.png"/>
             </div>
             <div class="row text text_size-20">
-                <div class="col"><img src="/image/icon1.png"/><div>Более 20 <span class="text_big">лет</span> на рынке</div></div>
-                <div class="col"><img src="/image/icon2.png"/><div>Высокое качество продукции</div></div>
-                <div class="col"><img src="/image/icon3.png"/><div><span class="text_big">300+</span> тн отгрузок в месяц</div></div>
-                <div class="col"><img src="/image/icon4.png"/><div>Доставка по России и СНГ</div></div>
+                <div class="col"><img src="/image/icon1_1.png"/><div>Более 20 <span class="text_big">лет</span> на рынке</div></div>
+                <div class="col"><img src="/image/icon2_2.png"/><div>Высокое качество продукции</div></div>
+                <div class="col"><img src="/image/icon3_3.png"/><div><span class="text_big">300+</span> тн отгрузок в месяц</div></div>
+                <div class="col"><img src="/image/icon4_4.png"/><div>Доставка по России и СНГ</div></div>
             </div>
         </div>
     </section>
@@ -91,34 +91,34 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            
-                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner4.png"/></a></div>
-                            
-                        </div>
-                        <div class="swiper-slide">
                             <div class="row">
-                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner4.png"/></a></div>
+                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner4.png"/></a></div>
+                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <div class="col"><a href="/"><img src="/image/partner1.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner2.png"/></a></div>
-                                <div class="col"><a href="/"><img src="/image/partner3.png"/></a></div>
+                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner4.png"/></div></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
                             </div>
                         </div>
                     </div>
