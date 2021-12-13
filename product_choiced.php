@@ -7,18 +7,18 @@
         <div class="container">
             <div class="title-2">
                 <div class="line"><img src="image/product_choiced/left_line.png"/></div>
-                <div class="text text_size-36"><span class="text_big">Продукция</span></div>
+                <div class="text text_size-36"><strong>Продукция</strong></div>
                 <div class="line"><img src="image/product_choiced/right_line.png"/></div>
             </div>
         </div>
     </section>
     <section class="product_choiced_section-2">
         <div class="container">
-            <div class="row list_link-3 text_big text_size-20">
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-1"><div>Графит природный</div></div></a>
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-2"><div>Графит искусственный</div></div></a>
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-3"><div>Материалы</div></div></a>
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-4"><div>Изделия</div></div></a>
+            <div class="row list_link-3 text_size-20">
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-1"><div><strong>Графит природный</strong></div></div></a>
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-2"><div><strong>Графит искусственный</strong></div></div></a>
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-3"><div><strong>Материалы</strong></div></div></a>
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-4"><div><strong>Изделия</strong></div></div></a>
             </div>
         </div>
     </section>

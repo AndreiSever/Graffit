@@ -7,7 +7,7 @@
         <div class="container">
             <div class="title-2">
                 <div class="line"><img src="image/production/left_line.png"/></div>
-                <div class="text text_size-36"><span class="text_big">Справочник</span></div>
+                <div class="text text_size-36"><strong>Справочник</strong></div>
                 <div class="line"><img src="image/production/right_line.png"/></div>
             </div>
         </div>
@@ -21,9 +21,9 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -33,13 +33,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -49,13 +49,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -65,13 +65,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -81,13 +81,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -97,13 +97,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -113,13 +113,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...
@@ -129,13 +129,13 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Название статьи
-                                Название статьи
+                            <div class="text_size-18">
+                                <strong>Название статьи</strong>
+                                <strong>Название статьи</strong>
                             </div>
                             <div class="text text_size-16">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa...

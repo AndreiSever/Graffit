@@ -5,9 +5,9 @@
 <main>
     <section class="section-1">
         <div class="container">
-            <div class="text_big">
+            <div class="text_left">
                 <div class="text_size-48">
-                    Производство и продажа изделий из графита
+                    <strong>Производство и продажа изделий из графита</strong>
                 </div>
                 <div class="text text_size-20">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibu
@@ -51,32 +51,32 @@
     <section class="section-2">
         <div class="container">
             <div class="title-1">
-                <div class="text text_size-36">Наша <span class="text_big">продукция</span></div>
+                <div class="text text_size-36">Наша <strong>продукция</strong></div>
                 <img class="line" src="image/right_line.png"/>
             </div>
-            <div class="row list_link-1 text_big text_size-20">
-                <a class="col" href="/"><div class="col link-1 img-1"><div>Графит природный</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-2"><div>Графит искусственный</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-3"><div>Изделия из графита</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-4"><div>Изделия футеровочные</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-5"><div>Бой графита</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-6"><div>Антифрикционный графит</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-7"><div>Электроды графитированные</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-8"><div>Препараты коллоидно-графитовые</div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-9"><div>Угольные электроды</div></div></a>
+            <div class="row list_link-1 text_size-20">    
+                <a class="col" href="/"><div class="col link-1 img-1"><div><strong>Графит природный</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-2"><div><strong>Графит искусственный</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-3"><div><strong>Изделия из графита</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-4"><div><strong>Изделия футеровочные</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-5"><div><strong>Бой графита</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-6"><div><strong>Антифрикционный графит</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-7"><div><strong>Электроды графитированные</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-8"><div><strong>Препараты коллоидно-графитовые</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-9"><div><strong>Угольные электроды</strong></div></div></a>
             </div>
         </div>
     </section>
     <section class="section-3">
         <div class="container">
             <div class="title-1">
-                <div class="text text_size-36">Наши <span class="text_big">приемущества</span></div>
+                <div class="text text_size-36">Наши <strong>приемущества</strong></div>
                 <img class="line" src="image/right_line.png"/>
             </div>
             <div class="row text text_size-20">
-                <div class="col"><img src="/image/icon1_1.png"/><div>Более 20 <span class="text_big">лет</span> на рынке</div></div>
+                <div class="col"><img src="/image/icon1_1.png"/><div>Более 20 <strong>лет</strong> на рынке</div></div>
                 <div class="col"><img src="/image/icon2_2.png"/><div>Высокое качество продукции</div></div>
-                <div class="col"><img src="/image/icon3_3.png"/><div><span class="text_big">300+</span> тн отгрузок в месяц</div></div>
+                <div class="col"><img src="/image/icon3_3.png"/><div><strong>300+</strong> тн отгрузок в месяц</div></div>
                 <div class="col"><img src="/image/icon4_4.png"/><div>Доставка по России и СНГ</div></div>
             </div>
         </div>
@@ -84,7 +84,7 @@
     <section class="section-4">
         <div class="container">
             <div class="title-1">
-                <div class="text text_size-36">Нам доверяют <span class="text_big">лучшие</span></div>
+                <div class="text text_size-36">Нам доверяют <strong>лучшие</strong></div>
                 <img class="line" src="image/right_line.png"/>
             </div>
             <div class="slider">
@@ -155,8 +155,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        Наши филиалы в <span class="text_big text_size-18">других городах России</span>
+                    <div class="text_size-18">
+                        Наши филиалы в <strong >других городах России</strong>
                     </div>
                     
                     <div>

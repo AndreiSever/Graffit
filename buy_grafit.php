@@ -7,7 +7,7 @@
         <div class="container">
             <div class="title-2">
                 <div class="line"><img src="image/production/left_line.png"/></div>
-                <div class="text text_size-36"><span class="text_big">Закуп графита</span></div>
+                <div class="text text_size-36"><strong>Закуп графита</strong></div>
                 <div class="line"><img src="image/production/right_line.png"/></div>
             </div>
         </div>
@@ -15,11 +15,11 @@
     <section class="buy_grafit_section-2">
         <div class="container">
             <div class="text text_size-16">
-                <div>
-                    <span class="text_big text_size-18">
+                <div class="text_size-18">
+                    <strong>
                         Продажа графита любых марок от производителя. Закупка графита отличного качества по оптовым ценам.
                         Доставка в любой регион.
-                    </span>
+                    </strong>
                 </div>
                 <div class="paragraph">
                     Компанией ООО ГрафитСервис осуществляется продажа графита  и всевозможной продукции из него по низкой стоимости. Мы
@@ -47,15 +47,15 @@
                         </span>
                     </li>
                 </ul>
-                <div class="text_big head_ul text_size-18">Продажа графита из наличия со склада</div>
+                <div class="head_ul text_size-18"><strong>Продажа графита из наличия со склада</strong></div>
                 <ol>
-                    <li><a href="/">Графиты искусственные.</a></li>
+                    <li><a href="/"><>Графиты искусственные.</a></li>
                     <li><a href="/">Графиты природные.</a></li>
                     <li><a href="/">Углеродные материалы на основе химических волокон</a></li>
                     <li><a href="/">Электроды угольные, графитовые</a></li>
                     <li><a href="/">Углерод технический (сажа)</a></li>
                 </ol>
-                <div class="text_big head_ul text_size-18">Закупка графита любых видов</div>
+                <div class="head_ul text_size-18"><strong>Закупка графита любых видов</strong></div>
                 <ol>
                     <li>Графит конструкционных марок в заготовках:
                         <ul>
@@ -78,11 +78,11 @@
                 </div>
             </div>
             <table>
-                <thead class="text_big text_size-16">
+                <thead class="text_size-16">
                     <tr>
-                        <th>Материал</th>
-                        <th>Описание</th>
-                        <th>Цена, руб за 1кг.</th>
+                        <th><strong>Материал</strong></th>
+                        <th><strong>Описание</strong></th>
+                        <th><strong>Цена, руб за 1кг.</strong></th>
                     </tr>
                 </thead>
                 <tbody class="text text_size-14">

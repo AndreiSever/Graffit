@@ -7,7 +7,7 @@
         <div class="container">
             <div class="title-2">
                 <div class="line"><img src="image/about_company/left_line.png"/></div>
-                <div class="text text_size-36"><span class="text_big">О компании</span></div>
+                <div class="text text_size-36"><strong>О компании</strong></div>
                 <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
         </div>
@@ -34,18 +34,18 @@
         <div class="container">
             <div class="title-2">
                 <div class="line"><img src="image/about_company/left_line.png"/></div>
-                <div class="text text_size-36">Наши <span class="text_big">сотрудники</span></div>
+                <div class="text text_size-36">Наши <strong>сотрудники</strong></div>
                 <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
-            <div class="row list_link-2 text_big text_size-20">
+            <div class="row list_link-2 text_size-20">
                 <a class="col" href="/">
                     <div class="col link-2">
                         <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -57,12 +57,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -74,12 +74,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -91,12 +91,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -108,12 +108,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -125,12 +125,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -142,12 +142,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -159,12 +159,12 @@
                 </a>
                 <a class="col" href="/">
                     <div class="col link-2">
-                        <div >
+                        <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_big text_size-18">
-                                Александр Иванок
+                            <div class="text_name text_size-18">
+                                <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
                             <div class="text text_size-16">
@@ -181,7 +181,7 @@
         <div class="container">
             <div>
                 <div class="title-1">
-                    <div class="text text_size-36">Появились <span class="text_big">вопросы?</span></div>
+                    <div class="text text_size-36">Появились <strong>вопросы?</strong></div>
                     <img class="line" src="image/right_line.png"/>
                 </div>
                 <div class="text text_size-16">
