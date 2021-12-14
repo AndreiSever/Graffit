@@ -39,7 +39,7 @@
         </div>
         <form class="d-flex">
             <img class="search" src="image/search.png" /></img>
-            <input class="form-control text .text_size-14" type="search" placeholder="Поиск" aria-label="Search">
+            <input class="form-control text text_size-14" type="search" placeholder="Поиск" aria-label="Search">
         </form>
     </div> 
 </nav>

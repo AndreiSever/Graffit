@@ -34,7 +34,7 @@
                         </div>
                         <div class="form-group form-check">
                             <input class="form-check-input check-input" type="checkbox" name="checkbox" id="condition" value="agree" required>
-                            <label class="form-check-label" for="condition"><span class="text_size-12">Принимаю условия политики конфиденциальности</span></label>
+                            <label class="form-check-label text_size-12" for="condition">Принимаю условия политики конфиденциальности</label>
                             <div class="invalid-feedback">
                                 Вы должны принять перед отправкой.
                             </div>
