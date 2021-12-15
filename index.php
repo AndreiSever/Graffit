@@ -129,7 +129,7 @@
     </section>
     <section class="section-5">
         <div class="container">  
-            <div class="contacts_form text">
+            <div class="contacts_form">
                 <div>
                     <div class="title-1">
                         <div class="text text_size-36">Контакты</div>
@@ -155,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text_size-18">
+                    <div class="text text_size-18">
                         Наши филиалы в <strong >других городах России</strong>
                     </div>
                     

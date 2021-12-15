@@ -23,7 +23,7 @@
                 <div class="header">
                     <a href="/">
                         <div>
-                            <img class="header_logo" src="image/graphitservis_logo 1.png"/>
+                            <img class="header_logo" src="image/logo_header.png"/>
                         </div>
                     </a>
                     <div class="info">

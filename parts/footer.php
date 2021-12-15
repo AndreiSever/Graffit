@@ -2,7 +2,7 @@
             <div class="container navbar">
                 <a href="/">
                     <div>
-                        <img src="image/logo.png"/>
+                        <img src="image/logo_footer.png"/>
                     </div>
                 </a>
                 <div class="menu text">

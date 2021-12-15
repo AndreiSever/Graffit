@@ -7,7 +7,7 @@
         <div class="container">
             <div class="title-2">
                 <div class="line"><img src="image/about_company/left_line.png"/></div>
-                <div class="text text_size-36"><strong>О компании</strong></div>
+                <div class="text text_size-36">О <strong>компании</strong></div>
                 <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
         </div>
