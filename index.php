@@ -13,7 +13,7 @@
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibu
                 </div>
             </div>
-            <div class="form text">
+            <div class="form-1 text">
                 <div>
                     <form class="needs-validation" novalidate>
                         <legend class="text_legend text_size-20">
@@ -54,16 +54,16 @@
                 <div class="text text_size-36">Наша <strong>продукция</strong></div>
                 <img class="line" src="image/right_line.png"/>
             </div>
-            <div class="row list_link-1 text_size-20">    
-                <a class="col" href="/"><div class="col link-1 img-1"><div><strong>Графит природный</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-2"><div><strong>Графит искусственный</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-3"><div><strong>Изделия из графита</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-4"><div><strong>Изделия футеровочные</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-5"><div><strong>Бой графита</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-6"><div><strong>Антифрикционный графит</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-7"><div><strong>Электроды графитированные</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-8"><div><strong>Препараты коллоидно-графитовые</strong></div></div></a>
-                <a class="col" href="/"><div class="col link-1 img-9"><div><strong>Угольные электроды</strong></div></div></a>
+            <div class="row list_link-1">    
+                <a class="col" href="/"><div class="col link-1 img-1"><div class="text_size-20"><strong>Графит природный</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-2"><div class="text_size-20"><strong>Графит искусственный</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-3"><div class="text_size-20"><strong>Изделия из графита</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-4"><div class="text_size-20"><strong>Изделия футеровочные</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-5"><div class="text_size-20"><strong>Бой графита</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-6"><div class="text_size-20"><strong>Антифрикционный графит</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-7"><div class="text_size-20"><strong>Электроды графитированные</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-8"><div class="text_size-20"><strong>Препараты коллоидно-графитовые</strong></div></div></a>
+                <a class="col" href="/"><div class="col link-1 img-9"><div class="text_size-20"><strong>Угольные электроды</strong></div></div></a>
             </div>
         </div>
     </section>
@@ -92,33 +92,33 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="row">
-                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner4.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner4.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner4.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <a class="col" href="/"><div><img src="/image/partner1.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner2.png"/></div></a>
-                                <a class="col" href="/"><div><img src="/image/partner3.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
                             </div>
                         </div>
                     </div>

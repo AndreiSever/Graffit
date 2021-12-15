@@ -162,7 +162,7 @@
                     подготовим индивидуальное предложение!
                 </div>
             </div>
-            <div class="form text">
+            <div class="form-1 text">
                 <div>
                     <form class="needs-validation" novalidate>
                         <div class="form-group">

@@ -148,7 +148,7 @@
     </section>
     <section class="guide_section-3">
         <div class="container">
-            <div class="form form-2 text">
+            <div class="form-2 text">
                 <div>
                     <form class="needs-validation" novalidate>
                         <div class="form-group">

@@ -65,7 +65,7 @@
 						<div class="modal-dialog modal-lg modal-dialog-centered">
 							<div class="modal-content">
                                 <div class="modal-body">
-                                    <div class="form text">
+                                    <div class="form-1 text">
                                         <div>
                                             <form class="needs-validation" novalidate>
                                                 <button type="button" id="close" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
@@ -107,7 +107,7 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-body">
-                                    <div class="form text">
+                                    <div class="form-1 text">
             
                                         <div class="answer_content">
                                             <form>

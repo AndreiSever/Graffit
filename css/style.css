@@ -56,6 +56,9 @@ strong{
 .text_size-36{
     font-size: 36px;
 }
+.text_size-24{
+    font-size: 24px;
+}
 .text_size-20{
     font-size: 20px;
 }
@@ -118,15 +121,16 @@ input[type="search"]::-webkit-search-results-decoration {
 .btn-close{
     float: right;
 }
-.form{
+.form-1{
     display: flex;
     background: #FFFFFF;
     width: 499px;
+    box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
- .form>div{
+ .form-1>div{
     margin: 0 auto;
     width: 479px;
     border: 1px dashed #AEAEAE;
@@ -137,35 +141,35 @@ input[type="search"]::-webkit-search-results-decoration {
     padding-left: 40px;
     padding-right: 40px;
 }
- legend{
+.form-1 legend{
     margin-bottom: 30px;
 }
- legend>div:nth-of-type(1){
+.form-1 legend>div:nth-of-type(1){
     text-align: center;
 }
- legend{
+.form-1 legend{
     line-height: 24px;
 }
-.form-group{
+.form-1 .form-group{
     margin-top: 15px;
     margin-bottom: 0;
 }
-.form-check label{
+.form-1 .form-check label{
     line-height: 15px;
     vertical-align: middle;
 }
-.form-check-input{
+.form-1 .form-check-input{
     margin-top: 0px;
 }
-.form-check .form-check-input{
+.form-1 .form-check .form-check-input{
     float: none;
     margin-left: 0px;
     vertical-align: middle;
 }
-.form-check{
+.form-1 .form-check{
     padding-left: 0px;
 }
- .form-check .form-check-input{
+.form-1 .form-check .form-check-input{
     width: 18px;
     height: 18px;
     border: 1px solid rgba(0, 0, 0, 0.25);
@@ -189,27 +193,74 @@ input[type="search"]::-webkit-search-results-decoration {
     box-shadow: none;
     border: 1px solid rgba(0, 0, 0, 0.25);  
 }
- .form_butn{
+.form-1 .form_butn{
     padding-top: 10px;
     width: 394px;
 }
- .form_butn .text_btn{
+.form-1 .form_butn .text_btn{
     padding-top: 14px;
     padding-bottom: 14px;
     line-height: 22px;
 }
 .form-2{
+    display: flex;
+    background: #FFFFFF;
+    width: 499px;
     box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0 auto;
 }
 .form-2>div{
+    margin: 0 auto;
+    width: 479px;
+    border: 1px dashed #AEAEAE;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px 1px rgba(0, 0, 0, 0.09);
     padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+.form-2 .form-group{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.form-2 .form-check label{
+    line-height: 15px;
+    vertical-align: middle;
+}
+.form-2 .form-check-input{
+    margin-top: 0px;
+}
+.form-2 .form-check .form-check-input{
+    float: none;
+    margin-left: 0px;
+    vertical-align: middle;
+}
+.form-2 .form-check{
+    padding-left: 0px;
+}
+.form-2 .form-check .form-check-input{
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    background-color: #FFFFFF;
 }
 .form-2 .form-group:first-of-type{
     margin-top: 0;
 }
-
+.form-2 .form_butn{
+    padding-top: 10px;
+    width: 394px;
+}
+.form-2 .form_butn .text_btn{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    line-height: 22px;
+}
 .was-validated .form-check-input:valid:checked{
     background-color: #FFFFFF;
 }
@@ -221,13 +272,13 @@ input[type="search"]::-webkit-search-results-decoration {
     vertical-align: middle;
     color: green;
 }
-.form .answer_content{
+.form-1 .answer_content{
     position: relative;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
 }
-.form .answer_content .btn-close{
+.form-1 .answer_content .btn-close{
     position: absolute;
     left: 92%;
     top: 8%;
@@ -291,8 +342,11 @@ input[type="search"]::-webkit-search-results-decoration {
     border-radius: 10px;
 
 }
-.list_link-2 .link-2 img{
+.list_link-2 .link-2>div:first-of-type img{
     border-radius: 10px 10px 0 0;
+}
+.list_link-2 .link-2 img{
+    width:100%;
 }
 .list_link-2 .link-2:hover{
     transform: scale(1.05);
@@ -387,6 +441,7 @@ table tbody td:last-of-type{
     border-radius: 5px;
 }
 .container .head_ul{
+    line-height: 24px;
     margin-top: 25px;
 }
 ul {
@@ -884,11 +939,11 @@ nav .d-flex input:focus{
 .about_company_section-3 .list_link-2{
     text-align: center;
 }
-.about_company_section-3 .list_link-2 .link-2 .text_name{
+.about_company_section-3 .list_link-2 .link-2 .text:first-of-type{
     line-height: 22px;
     color: black;
 }
-.about_company_section-3 .list_link-2 .link-2 .text{
+.about_company_section-3 .list_link-2 .link-2 .text:last-of-type{
     line-height: 20px;
     color: black;
 }
@@ -905,11 +960,14 @@ nav .d-flex input:focus{
 /*///////////////PRODUCT_CHOICED_SECTION-3/////////////////////////////*/
 .product_choiced_section-3 .container{
     padding-top: 182px;
+    padding-bottom: 100px;
+}
+.product_choiced_section-3 .container img{
+    width: 100%;
 }
 .product_choiced_section-3 ul {
     margin-top: 40px;
     padding-left: 15px;
-    margin-bottom: 100px;
 }
 .product_choiced_section-3 li {
     color: #FF8F32;
@@ -1029,9 +1087,9 @@ nav .d-flex input:focus{
     display: flex;
     justify-content: flex-start;
 }
-.section-4 .swiper-slide .col {
-    max-width: 262px;
-    max-height: 177px;
+.section-4 .swiper-slide .col-parthner { 
+    width: 252px;
+    height: 177px;
     margin-right: 31px;
     display: flex;
     justify-content: center;
@@ -1047,7 +1105,7 @@ nav .d-flex input:focus{
 }
 .section-4 .swiper-slide img {
     display: block;
-    width: auto;
+    width: 100%;
     object-fit: cover;
 }
 .section-4 .swiper-pagination{
@@ -1080,7 +1138,11 @@ nav .d-flex input:focus{
     width: 577px;
 }
 .about_company_section-4 .container>div>.text{
+    line-height: 32px;
     margin-top: 40px;
+}
+.about_company_section-4 .form-1>div {
+    padding-top: 15px;
 }
 /*///////////////PRODUCTION_SECTION-4/////////////////////////////*/
 .production_section-4 .container{
@@ -1193,6 +1255,9 @@ footer{
     background: #FBFBF9;
     border-bottom: 1px solid #AEAEAE;
 }
+footer .footer_logo{
+    width: 115px;
+}
 footer .menu{
     display: flex;
     align-items: center; 
@@ -1274,8 +1339,8 @@ footer .text a:hover{
         line-height: 17px;
     }
     nav .menu div {
-        padding-top: 13px;
-        padding-bottom: 15px;
+        padding-top: 14px;
+        padding-bottom: 14px;
     }
     .nav-backdrop .menu .text_size-16{
         font-size: 14px;
@@ -1311,59 +1376,59 @@ footer .text a:hover{
     .section-1 .text_left .text_size-20{
         font-size: 16px;
     }
-    .form {
+    .form-1 {
         width: 347px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    .form>div {
+    .form-1>div {
         width: 339px;
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 25px;
         padding-right: 25px;
     }
-    .form>div form .text_size-20{
+    .form-1>div form .text_size-20{
         font-size: 14px;
     }
-    legend{
+    .form-1 legend{
         line-height: 17px;
         margin-bottom: 15px;
     }
-    .form-group {
-        margin-top: 11px;
+    .form-1 .form-group {
+        margin-top: 10px;
     }
-    form .form-group:nth-of-type(3) {
+    .form-1 form .form-group:nth-of-type(3) {
         margin-top: 5px;
     }
-    .form-control {
+    .form-1 .form-control {
         padding: 11px 20px;
         line-height: 14px;
     }
-    .form>div form .text_size-14{
+    .form-1>div form .text_size-14{
         font-size: 12px;
     }
-    .form-check .form-check-input {
+    .form-1 .form-check .form-check-input {
         width: 14px;
         height: 14px;
     }
-    .form>div form .text_size-12{
+    .form-1>div form .text_size-12{
         font-size: 9px;
     }
     
-    .form-check label {
+    .form-1 .form-check label {
         line-height: 12px;
     }
-    .form_butn {
+    .form-1 .form_butn {
         padding-top: 10px;
         width: 288px;
     }
-    .form_butn .text_btn {
+    .form-1 .form_butn .text_btn {
         padding-top: 10px;
         padding-bottom: 10px;
         line-height: 20px;
     }
-    .form_butn .text_size-18{
+    .form-1 .form_butn .text_size-18{
         font-size: 16px;
     }
     .container .title-1 .text {
@@ -1439,10 +1504,10 @@ footer .text a:hover{
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .section-4 .swiper-slide .col {
-        max-width: 193px;
-        max-height: 130px;
-        margin-right: 40px;
+    .section-4 .swiper-slide .col-parthner {
+        width: 183px;
+        height: 130px;
+        margin-right: 30px;
     }
     .section-4 .swiper-pagination-bullet {
         width: 9.63px;
@@ -1507,6 +1572,9 @@ footer .text a:hover{
     .section-5 .city>div {
         margin-top: 10px;
     }
+    footer .footer_logo{
+        width: 115px;
+    }
     footer .text {
         line-height: 17px;
     }
@@ -1557,6 +1625,161 @@ footer .text a:hover{
     .list_link-2 .link-2 {
         margin-top: 15px;
         width: 193px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text{
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text:first-of-type{
+        line-height: 20px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text:last-of-type{
+        line-height: 17px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text_size-18{
+        font-size: 16px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text_size-16{
+        font-size: 14px;
+    }
+    .about_company_section-4 .container {
+        padding-top: 158px;
+        padding-bottom: 50px;
+    }
+    .about_company_section-4 .container>div:first-of-type {
+        width: 433px;
+    }
+    .about_company_section-4 .container>div>.text {
+        line-height: 22px;
+        margin-top: 30px;
+    }
+    .about_company_section-4 .container>div>.text_size-24 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .about_company_section-4 .form-1 .form-group:first-of-type{
+        margin-top: 0;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .products_section-1 .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .products_section-2 {
+        max-height: 356px;
+    }
+    .products_section-2 .container {
+        padding-top: 35px;
+    }
+    .list_link-3 a {
+        line-height: 20px;
+    }
+    .list_link-3 .link-3 .text_size-20{
+        font-size: 16px;
+    }
+    .list_link-3 .link-3 {
+        margin-top: 15px;
+        width: 425px;
+        min-height: 180px;
+    }
+    .products_section-3 .container {
+        padding-top: 119px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .product_choiced_section-1 .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .product_choiced_section-2 .container {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .product_choiced_section-2 {
+        max-height: 356px;
+    }
+    .product_choiced_section-3 .container {
+        padding-top: 89px;
+    }
+    .product_choiced_section-3 ul {
+        margin-top: 20px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .production_section-1 .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .production_section-2 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .container .head_ul{
+        margin-top: 20px;
+    }
+    ul li {
+        margin-top: 10px;
+    }
+    .production_section-3 .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    .production_section-4 .container {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .production_section-5 {
+        max-height: 450px;
+    }
+    .form-2 {
+        width: 425px;
+    }
+    .form-2>div {
+        width: 405px;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-bottom: 25px;
+    }
+    .form-2 .form-group:nth-of-type(6) {
+        margin-top: 5px;
+    }
+    .form-2 .form-group:last-of-type {
+        margin-top: 10px;
+    }
+    .form-2 .form-control {
+        padding: 13px 20px;
+        line-height: 14px;
+    }
+    .form-2>div form .text_size-14{
+        font-size: 12px;
+    }
+    .form-2 .form-check .form-check-input {
+        width: 14px;
+        height: 14px;
+    }
+    .form-2>div form .text_size-12{
+        font-size: 10px;
+    }
+    
+    .form-2 .form-check label {
+        line-height: 12px;
+    }
+    .form-2 .form_butn {
+        padding-top: 10px;
+        width: 310px;
+    }
+    .form-1 .form_butn .text_btn {
+        line-height: 20px;
+    }
+    .form-1 .form_butn .text_size-18{
+        font-size: 16px;
+    }
+    .production_section-6 .container {
+        padding-top: 116px;
     }
 }
 @media (max-width:991px){

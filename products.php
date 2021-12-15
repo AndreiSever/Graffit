@@ -14,11 +14,11 @@
     </section>
     <section class="products_section-2">
         <div class="container">
-            <div class="row list_link-3 text_size-20">
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-1"><div><strong>Графит природный</strong></div></div></a>
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-2"><div><strong>Графит искусственный</strong></div></div></a>
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-3"><div><strong>Материалы</strong></div></div></a>
-                <a class="col" href="/product_choiced.php"><div class="col link-3 img-4"><div><strong>Изделия</strong></div></div></a>
+            <div class="row list_link-3">
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-1"><div class="text_size-20"><strong>Графит природный</strong></div></div></a>
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-2"><div class="text_size-20"><strong>Графит искусственный</strong></div></div></a>
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-3"><div class="text_size-20"><strong>Материалы</strong></div></div></a>
+                <a class="col" href="/product_choiced.php"><div class="col link-3 img-4"><div class="text_size-20"><strong>Изделия</strong></div></div></a>
             </div>
         </div>
     </section>

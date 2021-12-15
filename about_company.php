@@ -37,14 +37,14 @@
                 <div class="text text_size-36">Наши <strong>сотрудники</strong></div>
                 <div class="line"><img src="image/about_company/right_line.png"/></div>
             </div>
-            <div class="row list_link-2 text_size-20">
+            <div class="row list_link-2">
                 <a class="col" href="/">
                     <div class="col link-2">
                         <div>
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -61,7 +61,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -78,7 +78,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -95,7 +95,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -112,7 +112,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -129,7 +129,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -146,7 +146,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -163,7 +163,7 @@
                             <img src="image/about_company/worker.png"/>
                         </div>
                         <div>
-                            <div class="text_name text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Александр Иванок</strong>
                             </div>
                             <img src="image/about_company/line_link-2.png"/>
@@ -184,13 +184,13 @@
                     <div class="text text_size-36">Появились <strong>вопросы?</strong></div>
                     <img class="line" src="image/right_line.png"/>
                 </div>
-                <div class="text text_size-16">
+                <div class="text text_size-24">
                     Подробно расскажем о наших товарах,
                     об атуальных акциях, рассчитаем стоимость и
                     подготовим индивидуальное предложение!
                 </div>
             </div>
-            <div class="form text">
+            <div class="form-1 text">
                 <div>
                     <form class="needs-validation" novalidate>
                         <div class="form-group">
