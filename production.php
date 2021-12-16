@@ -29,7 +29,7 @@
                     <img src="image/production/image-right.png"/>
                 </div>
             </div>
-            <div class="head_ul text_size-18"><strong>Этапы производства терморасширенного графита:</strong></div>
+            <div class="text head_ul text_size-18"><strong>Этапы производства терморасширенного графита:</strong></div>
             <div class="text">
                 <ul class="text_size-16">
                     <li>
@@ -57,7 +57,7 @@
     </section>
     <section class="production_section-3">
         <div class="container">
-            <table>
+            <table class="text">
                 <thead class="text_size-16">
                     <tr>
                         <th><strong>Материал</strong></th>
@@ -67,7 +67,7 @@
                         <th><strong>Примечания</strong></th>
                     </tr>
                 </thead>
-                <tbody class="text text_size-14">
+                <tbody class="text_size-14">
                     <tr>
                         <td>
                             Терморасширенный графит ТРГ

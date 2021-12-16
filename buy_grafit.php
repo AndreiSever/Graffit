@@ -49,7 +49,7 @@
                 </ul>
                 <div class="head_ul text_size-18"><strong>Продажа графита из наличия со склада</strong></div>
                 <ol>
-                    <li><a href="/"><>Графиты искусственные.</a></li>
+                    <li><a href="/">Графиты искусственные.</a></li>
                     <li><a href="/">Графиты природные.</a></li>
                     <li><a href="/">Углеродные материалы на основе химических волокон</a></li>
                     <li><a href="/">Электроды угольные, графитовые</a></li>
@@ -77,7 +77,7 @@
                     предусмотрены скидки.
                 </div>
             </div>
-            <table>
+            <table class="text">
                 <thead class="text_size-16">
                     <tr>
                         <th><strong>Материал</strong></th>
@@ -85,7 +85,7 @@
                         <th><strong>Цена, руб за 1кг.</strong></th>
                     </tr>
                 </thead>
-                <tbody class="text text_size-14">
+                <tbody class="text_size-14">
                     <tr>
                         <td>Графит искусственный зернистый</td>
                         <td>ТУ 48-4805-101-91</td>

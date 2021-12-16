@@ -60,86 +60,86 @@
     </section>
     <section class="contacts_section-3">
         <div class="container">
-            <div class="text_size-20"><strong>Наши филиалы в других городах России</strong></div>
-            <div class="row list_link-3 text text_size-16">
-                <div class="col link-3">
+            <div class="text text_size-20"><strong>Наши филиалы в других городах России</strong></div>
+            <div class="row list_link-4 text text_size-16">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Москва</strong></div>
                     <div><strong>Фактический адрес:</strong> 109316 Москва, ул. Рябиновая, 51а</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Санкт-Петербург</strong></div>
                     <div><strong>Фактический адрес:</strong> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Москва</strong></div>
                     <div><strong>Фактический адрес:</strong> 109316 Москва, ул. Рябиновая, 51а</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Санкт-Петербург</strong></div>
                     <div><strong>Фактический адрес:</strong> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Москва</strong></div>
                     <div><strong>Фактический адрес:</strong> 109316 Москва, ул. Рябиновая, 51а</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Санкт-Петербург</strong></div>
                     <div><strong>Фактический адрес:</strong> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Москва</strong></div>
                     <div><strong>Фактический адрес:</strong> 109316 Москва, ул. Рябиновая, 51а</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Санкт-Петербург</strong></div>
                     <div><strong>Фактический адрес:</strong> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Москва</strong></div>
                     <div><strong>Фактический адрес:</strong> 109316 Москва, ул. Рябиновая, 51а</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Санкт-Петербург</strong></div>
                     <div><strong>Фактический адрес:</strong> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Москва</strong></div>
                     <div><strong>Фактический адрес:</strong> 109316 Москва, ул. Рябиновая, 51а</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>
                     <div><a href="mailto: msk@graphitservis.ru"><strong>E-mail:</strong> msk@graphitservis.ru</a></div>
                     <div><strong>Время работы:</strong> 09.00 - 18.00, выходные: сб., вс.</div>
                 </div>
-                <div class="col link-3">
+                <div class="col link-4">
                     <div class="text_size-18"><strong>ГрафитСервис - Санкт-Петербург</strong></div>
                     <div><strong>Фактический адрес:</strong> 196240 Санкт-Петербург, просп. Маршала Жукова, 78, лит А</div>
                     <div><a href="tel:8800333-04-61"><strong>Телефон:</strong> 8 (800) 333-04-61</a></div>

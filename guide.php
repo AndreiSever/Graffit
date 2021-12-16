@@ -21,7 +21,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -37,7 +37,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -53,7 +53,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -69,7 +69,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -85,7 +85,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -101,7 +101,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -117,7 +117,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
@@ -133,7 +133,7 @@
                             <img src="image/guide/article.png"/>
                         </div>
                         <div>
-                            <div class="text_size-18">
+                            <div class="text text_size-18">
                                 <strong>Название статьи</strong>
                                 <strong>Название статьи</strong>
                             </div>
