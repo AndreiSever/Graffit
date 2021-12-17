@@ -44,7 +44,6 @@
         <div class="menu_open-2">
             <img  src="/image/menu.png"/>
         </div>
-        
         <img class="menu_close-2" src="/image/close.png"/>
     </div> 
     <div class="text menu-2">

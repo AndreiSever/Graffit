@@ -93,34 +93,44 @@
                         <div class="swiper-slide">
                             <div class="row">
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="row">
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner1.png"/></div></a>
-                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner2.png"/></div></a>
                                 <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner3.png"/></div></a>
                             </div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <a class="col" href="/"><div class="col col-parthner"><img src="/image/partner4.png"/></div></a>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>

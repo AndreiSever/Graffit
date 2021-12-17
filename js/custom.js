@@ -3,15 +3,36 @@ $(function(){
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
-          spaceBetween: 300,
+          spaceBetween: 400,
           renderBullet: function (index, className) {
             
             return '<span class="' + className + '">' + "</span>";
           },
         },
+        breakpoints: {
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          992: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1200: {
+            slidesPerView: 4,
+            spaceBetween: 31,
+          },
+        }
     });
+    $(".menu_close-2").on("click", function(e){
+      $(".menu-2").toggleClass("menu_active-2");
+      $(".menu_open-2").css("display", "block");
+      $(".menu_close-2").css("display", "none");
+    })
     $('nav .menu_open-2').on('click',function(e) {
       $(".menu-2").toggleClass("menu_active-2");
+      $(".menu_open-2").css("display", "none");
+      $(".menu_close-2").css("display", "block");
     });
     $(".btn-close").on("click",function(e){
       let form_validate = $(this).parents("form")[0];
