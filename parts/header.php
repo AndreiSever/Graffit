@@ -28,8 +28,11 @@
                     </a>
                     <div class="info">
                         <div>
-                            <img src="image/Group 23.png"/>
-                            <div class="text">
+                            <img class="header_img-1" src="image/Group 23.png">
+                            <div class="header_img-2">
+                                <img src="image/mail.png"/>
+                            </div>
+                            <div class="text">    
                                 <div class="text_size-16"><a href="mailto:info@graphitservis.ru">info@graphitservis.ru</a></div>
                                 <div class="text_size-12 green_circle">
                                     <img src="/image/green_circle.png"/>
@@ -38,7 +41,10 @@
                             </div>
                         </div>
                         <div>
-                            <img src="image/Group 22.png"/>
+                            <img class="header_img-1" src="image/Group 22.png"/>
+                            <div class="header_img-2">
+                                <img src="image/phone.png"/>
+                            </div>
                             <div class="text">
                                 <div class="text_size-16"><a href="tel:+73517299915">+7 (351) 729-99-15</a></div>
                                 <div class="text_size-12 green_circle">
@@ -48,11 +54,13 @@
                             </div>
                         </div>
                         <div>
-                            <img src="image/icon.png"/>
+                            <img class="header_img-1" src="image/icon.png"/>
+                            <div class="header_img-2">
+                                <img src="image/map.png"/>
+                            </div>
                             <div class="text">
                                 <a href="/contacts.php">
-                                    <div class="text_size-16">г. Челябинск,</div>
-                                    <div class="text_size-16">ул. С.Юлаева, 25</div>
+                                    <div class="text_size-16">г. Челябинск, ул. С.Юлаева, 25</div>
                                 </a>    
                             </div>
                         </div>

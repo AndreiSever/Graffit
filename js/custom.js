@@ -10,6 +10,9 @@ $(function(){
           },
         },
     });
+    $('nav .menu_open-2').on('click',function(e) {
+      $(".menu-2").toggleClass("menu_active-2");
+    });
     $(".btn-close").on("click",function(e){
       let form_validate = $(this).parents("form")[0];
       let form_has_class= $(this).parents("form");

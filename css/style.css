@@ -512,7 +512,10 @@ header .info>div{
     display: inline-block;
     vertical-align: middle;
 }
-header .info>div>img{
+header .info>div>.header_img-2 {
+    display: none;
+}
+header .info>div>.header_img-1{
     width: 43px;
 }
 header .info .text{
@@ -530,6 +533,9 @@ header .info .green_circle>div{
     padding-left: 5px;
     color: #5F5F5F;
 }
+header .info>div:nth-of-type(3) .text div {
+    width: 133px;
+}
 header .text .text_size-16{
     color: #000000;
 }
@@ -544,6 +550,7 @@ header .header_butn .text_btn{
 }
 /*//////////////////NAVIGATION/////////////////////////////////*/
 .nav-backdrop{
+    position: relative;
     background: #886344;
 }
 nav .menu{
@@ -559,6 +566,18 @@ nav .menu div{
 }
 nav .menu a:nth-of-type(1) div{
     padding-left: 0px;
+}
+nav .menu-2{
+    display: none;
+}
+nav .menu_open-2{
+    display: none;
+}
+nav .menu_close-2{
+    display: none;
+}
+nav .menu-2 div:hover{
+    color: #CD9B71;
 }
 nav .menu div:hover{
     color: #CD9B71;
@@ -1329,14 +1348,20 @@ footer .text a:hover{
     header .header_logo {
         width: 115px;
     }
-    header .info>div>img {
+    header .info>div>.header_img-1 {
         width: 30px;
+    }
+    header .info .text a {
+        line-height: 17px;
     }
     header .info .text {
         line-height: 17px;
     }
     header .info .green_circle {
         line-height: 14.63px;
+    }
+    header .info>div:nth-of-type(3) .text div {
+        width: 117px;
     }
     header .text .text_size-16 {
         font-size: 14px;
@@ -1562,6 +1587,9 @@ footer .text a:hover{
     }
     .section-5 .info .text {
         margin-left: 10px;
+    }
+    .section-5 .info .text a {
+        line-height: 17px;
     }
     .section-5 .info .text {
         line-height: 17px;
@@ -1952,26 +1980,51 @@ footer .text a:hover{
         max-width:736px;
     }
     header .header_logo {
-        width: 115px;
+        width: 89px;
     }
-    header .info>div>img {
-        width: 30px;
-    }
+    
     header .info .text {
-        line-height: 17px;
-    }
-    header .info .green_circle {
-        line-height: 14.63px;
+        margin-left: 0px;
     }
     header .text .text_size-16 {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    header .info .text {
+        line-height: 15px;
     }
     header .text .text_size-12 {
         font-size: 10px;
     }
-    
+    header .info .green_circle {
+        line-height: 12px;
+    }
+    header .info>div>.header_img-1 {
+        display: none;
+    }
+    header .info>div>.header_img-2 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    header .info>div>.header_img-2>img {
+        width: 11px;
+        vertical-align: top;
+    }
+    header .info>div:nth-of-type(3) .header_img-2>img {
+        width: 7px;
+    }
+    header .info>div:nth-of-type(3) .text div {
+        width: 112px;
+    }
     header .header_butn .text_btn {
         line-height: 17px;
+    }
+    header .header_butn .text_btn {
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    header .btn-shadow {
+        width: 95%;
+        padding-top: 2px;
     }
     header .header_butn .text_size-18{
         font-size: 14px;
@@ -1979,30 +2032,50 @@ footer .text a:hover{
     header .header_butn {
         width: 155px;
     }
-    nav .text a {
-        line-height: 17px;
+    nav .container {
+        padding-top: 9px;
+        padding-bottom: 9px;
     }
-    nav .menu div {
-        padding-top: 14px;
-        padding-bottom: 14px;
+    nav .menu{
+        display: none;
     }
-    .nav-backdrop .menu .text_size-16{
-        font-size: 14px;
+    nav .menu_open-2{
+        display: block;
     }
-    
+    nav .menu-2{
+        display: block;
+        position: absolute;
+        background: #886344;
+        width: 100%;
+        text-align: center;
+        height:0px;
+        overflow: hidden;
+        z-index: 2;
+        transition: height .7s ease-in-out;
+    }
+    nav .menu_active-2 {
+        border-top: 1px solid #A98262;
+        height:212px;
+    }
+    nav .menu-2 div{
+        margin-top: 15px;
+    }
     nav .d-flex input {
         width: 155px;
-        line-height: 14px;
-        padding-top: 8px;
-        padding-bottom: 8px;
+        line-height: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         padding-left: 15px;
-    }
+    } 
     nav .d-flex .text_size-14{
-        font-size: 12px;
+        font-size: 10px;
     }
     nav .d-flex .search {
         width: 12px;
         margin-left: 135px;
+    }
+    nav .d-flex .search {
+        top: 24%;
     }
     .section-1 .text_left {
         width: 449px;
