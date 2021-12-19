@@ -22,9 +22,6 @@
             </div>
         </div>
     </section>
-    <section class="products_section-3">
-        <div class="container"></div>
-    </section>
 </main>
 <?php
     require_once $_SERVER['DOCUMENT_ROOT']."/parts/footer.php";

@@ -197,9 +197,6 @@
             </div>
         </div>
     </section>
-    <section class="guide_section-4">
-        <div class="container"></div>
-    </section>
 </main>
 <?php
     require_once $_SERVER['DOCUMENT_ROOT']."/parts/footer.php";

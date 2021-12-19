@@ -10,6 +10,10 @@ $(function(){
           },
         },
         breakpoints: {
+          360:{
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
           768: {
             slidesPerView: 3,
             spaceBetween: 40,
@@ -23,6 +27,14 @@ $(function(){
             spaceBetween: 31,
           },
         }
+    });
+    $(window).on('load', function() {
+      $('.mycustom-scroll').mCustomScrollbar({
+        axis: 'x',              // вертикальный скролл 
+        theme: 'inset',  // тема 
+        scrollInertia: '330',   // продолжительность прокрутки, значение в миллисекундах 
+        setHeight: '5px',      // высота блока (переписывает CSS)
+      });
     });
     $(".menu_close-2").on("click", function(e){
       $(".menu-2").toggleClass("menu_active-2");

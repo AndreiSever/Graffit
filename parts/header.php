@@ -9,11 +9,14 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
         <link rel="stylesheet" href="css/style.css">
-
+        
+        
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>        
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>      
         <script src="js/custom.js"></script>
         <title></title>
     </head>

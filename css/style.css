@@ -432,6 +432,7 @@ table tbody td{
     padding-left: 12px;
     padding-right: 12px;
     border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
 }
 table tbody td:last-of-type{
     border-right: none;
@@ -810,21 +811,21 @@ nav .d-flex input:focus{
 }
 /*///////////////PRODUCTS_SECTION-2/////////////////////////////*/
 .products_section-2{
-    background: url("/image/products/products_section-2.png") no-repeat center center;
-    background-size: cover;
-    max-height: 458px;
+    background: url("/image/products/products_section-2.png") no-repeat center 0;
+    background-size: 100% 458px;
 }
 .products_section-2 .container{
     padding-top: 70px;
+    padding-bottom: 100px;
 }
 /*///////////////PRODUCT_CHOICED_SECTION-2/////////////////////////////*/
 .product_choiced_section-2{
-    background: url("/image/product_choiced/product_choiced_section-2.png") no-repeat center center;
-    background-size: cover;
-    max-height: 458px;
+    background: url("/image/product_choiced/product_choiced_section-2.png") no-repeat center 0;
+    background-size: 100% 458px;
 }
 .product_choiced_section-2 .container{
     padding-top: 70px;
+    padding-bottom: 40px;
 }
 /*///////////////PRODUCTION_SECTION-2/////////////////////////////*/
 .production_section-2 .container{
@@ -840,10 +841,12 @@ nav .d-flex input:focus{
 }
 
 .production_section-2 .container>.text>div:first-of-type{
-    width: 653px;
+    width: 100%;
 }
 .production_section-2 .container>.text>div:last-of-type img{
     width: 457px;
+    float: right;
+    margin-left: 40px;
 }
 /*///////////////BUY_GRAFIT_SECTION-2/////////////////////////////*/
 .buy_grafit_section-2 .container{
@@ -869,7 +872,7 @@ nav .d-flex input:focus{
     color: #FF8F32;
 }
 
-.guide_section-2 .list_link-2 .link-2 .text{
+.guide_section-2 .list_link-2 .link-2 .text:last-of-type{
     margin-top: 15px;
     line-height: 24px;
     color: black;
@@ -958,9 +961,8 @@ nav .d-flex input:focus{
 }
 /*///////////////ABOUT_COMPANY_SECTION-3/////////////////////////////*/
 .about_company_section-3{
-    background: url("/image/about_company/about_company_section3.png") no-repeat center center;
-    background-size: cover;
-    max-height: 806px;
+    background: url("/image/about_company/about_company_section3.png") no-repeat center 0;
+    background-size: 100% 806px;
 }
 .about_company_section-3 .container{
     padding-top: 55px;
@@ -985,13 +987,9 @@ nav .d-flex input:focus{
     padding-left: 15px;
     padding-right: 15px;
 }
-/*///////////////PRODUCT_SECTION-3/////////////////////////////*/
-.products_section-3 .container{
-    padding-top: 256px;
-}
 /*///////////////PRODUCT_CHOICED_SECTION-3/////////////////////////////*/
 .product_choiced_section-3 .container{
-    padding-top: 182px;
+    padding-top: 0px;
     padding-bottom: 100px;
 }
 .product_choiced_section-3 .container img{
@@ -1038,27 +1036,26 @@ nav .d-flex input:focus{
 }
 /*///////////////BUY_GRAFIT_SECTION-3/////////////////////////////*/
 .buy_grafit_section-3{
-    background: url("/image/buy_grafit/buy_grafit_section-3.png") no-repeat center center;
-    background-size: cover;
-    max-height: 485px;
+    background: url("/image/buy_grafit/buy_grafit_section-3.png") no-repeat center 0;
+    background-size: 100% 485px;
 }
 .buy_grafit_section-3 .container{
     padding-top: 40px;
+    padding-bottom: 100px;
 }
 /*///////////////GUIDE_SECTION-3/////////////////////////////*/
 .guide_section-3{
-    background: url("/image/guide/guide_section-3.png") no-repeat center center;
-    background-size: cover;
-    max-height: 485px;
+    background: url("/image/guide/guide_section-3.png") no-repeat center 0;
+    background-size: 100% 485px;
 }
 .guide_section-3 .container{
     padding-top: 40px;
+    padding-bottom: 100px;
 }
 /*///////////////CONTACTS_SECTION-3/////////////////////////////*/
 .contacts_section-3{
-    background: url("/image/contacts/contacts_section-3.png") no-repeat center center;
-    background-size: cover;
-    max-height: 1782px;
+    background: url("/image/contacts/contacts_section-3.png") no-repeat center 0;
+    background-size: 100% 1782px;
 }
 .contacts_section-3 .container{
     padding-top: 50px;
@@ -1177,7 +1174,7 @@ nav .d-flex input:focus{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 227px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .about_company_section-4 .container>div:first-of-type{
@@ -1198,20 +1195,12 @@ nav .d-flex input:focus{
 .production_section-4 .container .text{
     line-height: 24px;
 }
-/*///////////////BUY_GRAFIT_SECTION-4/////////////////////////////*/
-.buy_grafit_section-4 .container{
-    padding-top: 185px;
-}
-/*///////////////GUIDE_SECTION-4/////////////////////////////*/
-.guide_section-4 .container{
-    padding-top: 185px;
-}
 /*///////////////CONTACTS_SECTION-4/////////////////////////////*/
 .contacts_section-4 .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 227px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .contacts_section-4 .container>div:first-of-type{
@@ -1280,17 +1269,12 @@ nav .d-flex input:focus{
 }
 /*///////////////PRODUCTION_SECTION-5/////////////////////////////*/
 .production_section-5{
-    background: url("/image/production/production_section-5.png") no-repeat center center;
-    background-size: cover;
-    max-height: 485px;
+    background: url("/image/production/production_section-5.png") no-repeat center 0;
+    background-size: 100% 485px;
 }
 .production_section-5 .container{
     padding-top: 40px;
-}
-
-/*///////////////PRODUCTION_SECTION-6/////////////////////////////*/
-.production_section-6 .container{
-    padding-top: 185px;
+    padding-bottom: 100px;
 }
 /*/////////////////////////////////////////////////////////////////////*/
 footer{
@@ -1686,8 +1670,8 @@ footer .text a:hover{
     .about_company_section-3 .container {
         padding-top: 50px;
     }
-    .about_company_section-3 {
-        max-height: 566px;
+    .about_company_section-3{
+        background-size: 100% 566px;
     }
     .list_link-2 {
         margin-top: 10px;
@@ -1719,7 +1703,7 @@ footer .text a:hover{
         font-size: 14px;
     }
     .about_company_section-4 .container {
-        padding-top: 158px;
+        padding-top: 50px;
         padding-bottom: 50px;
     }
     .about_company_section-4 .container>div:first-of-type {
@@ -1741,10 +1725,11 @@ footer .text a:hover{
         padding-bottom: 40px;
     }
     .products_section-2 {
-        max-height: 356px;
+        background-size: 100% 356px;
     }
     .products_section-2 .container {
         padding-top: 35px;
+        padding-bottom: 50px;
     }
     .list_link-3 a {
         line-height: 20px;
@@ -1757,9 +1742,6 @@ footer .text a:hover{
         width: 425px;
         min-height: 180px;
     }
-    .products_section-3 .container {
-        padding-top: 119px;
-    }
     /*/////////////////////////////////////////////////////////*/
     .product_choiced_section-1 .container {
         padding-top: 40px;
@@ -1767,16 +1749,17 @@ footer .text a:hover{
     }
     .product_choiced_section-2 .container {
         padding-top: 35px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .product_choiced_section-2 {
-        max-height: 356px;
-    }
-    .product_choiced_section-3 .container {
-        padding-top: 89px;
+        background-size: 100% 356px;
     }
     .product_choiced_section-3 ul {
         margin-top: 20px;
+    }
+    .product_choiced_section-3 .container {
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
     /*/////////////////////////////////////////////////////////*/
     .production_section-1 .container {
@@ -1788,10 +1771,11 @@ footer .text a:hover{
         padding-bottom: 30px;
     }
     .production_section-2 .container>.text:first-of-type>div:first-of-type{
-        width: 503px;
+        width: 100%;
     }
     .production_section-2 .container>.text:first-of-type>div:last-of-type img{
         width: 347px;
+        
     }
     .production_section-2 .container .head_ul {
         margin-top: 20px;
@@ -1808,7 +1792,11 @@ footer .text a:hover{
         padding-bottom: 50px;
     }
     .production_section-5 {
-        max-height: 450px;
+        background-size: 100% 450px;
+    }
+    .production_section-5 .container {
+        padding-top: 45px;
+        padding-bottom: 50px;
     }
     .form-2 {
         width: 425px;
@@ -1853,9 +1841,6 @@ footer .text a:hover{
     .form-1 .form_butn .text_size-18{
         font-size: 16px;
     }
-    .production_section-6 .container {
-        padding-top: 116px;
-    }
     /*/////////////////////////////////////////////////////////*/
     .buy_grafit_section-1 .container {
         padding-top: 40px;
@@ -1890,13 +1875,11 @@ footer .text a:hover{
         width: 25%;
     }
     .buy_grafit_section-3 {
-        max-height: 450px;
+        background-size: 100% 450px;
     }
     .buy_grafit_section-3 .container {
         padding-top: 45px;
-    }
-    .buy_grafit_section-4 .container {
-        padding-top: 116px;
+        padding-bottom: 50px;
     }
     /*/////////////////////////////////////////////////////////*/
     .guide_section-1 .container {
@@ -1925,10 +1908,11 @@ footer .text a:hover{
         font-size: 14px;
     }
     .guide_section-3 {
-        max-height: 450px;
+        background-size: 100% 450px;
     }
-    .guide_section-4 .container {
-        padding-top: 116px;
+    .guide_section-3 .container {
+        padding-top: 45px;
+        padding-bottom: 50px;
     }
     /*/////////////////////////////////////////////////////////*/
     .contacts_section-1 .container {
@@ -1958,10 +1942,16 @@ footer .text a:hover{
         margin-top: 15px;
     }
     .contacts_section-3 {
-        max-height: 1483px;
+        background-size: 100% 1483px;
     }
     .contacts_section-3 .container {
         padding-top: 45px;
+    }
+    .contacts_section-3 .container>.text_size-20:first-of-type {
+        font-size: 20px;
+    }
+    .contacts_section-3 .container>.text:first-of-type {
+        line-height: 22px;
     }
     .contacts_section-3 .list_link-4 {
         margin-top: 15px;
@@ -1984,7 +1974,7 @@ footer .text a:hover{
         line-height: 20px;
     }
     .contacts_section-4 .container {
-        padding-top: 155px;
+        padding-top: 50px;
         padding-bottom: 50px;
     }
     .contacts_section-4 .container>div:first-of-type {
@@ -2329,6 +2319,9 @@ footer .text a:hover{
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .about_company_section-2 .container .title-2 {
+        padding-top: 5px;
+    }
     .about_company_section-2 .container .text {
         line-height: 24px;
     }
@@ -2339,7 +2332,7 @@ footer .text a:hover{
         padding-top: 35px;
     }
     .about_company_section-3 {
-        max-height: 474px;
+        background-size: 100% 474px;
     }
     .list_link-2 {
         margin-top: 20px;
@@ -2357,6 +2350,11 @@ footer .text a:hover{
         margin-top: 15px;
         width: 219px;
     }
+    .about_company_section-3 .list_link-2:before {
+        content: "";
+        width: 219px;
+        order: 99999;
+      }
     .about_company_section-3 .list_link-2 .link-2>div:last-of-type {
         padding-top: 10px;
         padding-bottom: 15px;
@@ -2380,32 +2378,32 @@ footer .text a:hover{
         font-size: 14px;
     }
     .about_company_section-4 .container {
-        padding-top: 158px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .about_company_section-4 .container>div:first-of-type {
-        width: 433px;
+        width: 337px;
     }
     .about_company_section-4 .container>div>.text {
-        line-height: 22px;
-        margin-top: 30px;
+        line-height: 17px;
+        margin-top: 20px;
     }
     .about_company_section-4 .container>div>.text_size-24 {
-        font-size: 18px;
+        font-size: 14px;
     }
     .about_company_section-4 .form-1 .form-group:first-of-type{
         margin-top: 0;
     }
     /*/////////////////////////////////////////////////////////*/
     .products_section-1 .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .products_section-2 {
-        max-height: 356px;
+        background-size: 100% 325px;  
     }
     .products_section-2 .container {
-        padding-top: 35px;
+        padding-top: 15px;
     }
     .list_link-3 a {
         line-height: 20px;
@@ -2415,70 +2413,111 @@ footer .text a:hover{
     }
     .list_link-3 .link-3 {
         margin-top: 15px;
-        width: 425px;
+        width: 348px;
         min-height: 180px;
-    }
-    .products_section-3 .container {
-        padding-top: 119px;
     }
     /*/////////////////////////////////////////////////////////*/
     .product_choiced_section-1 .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .product_choiced_section-2 .container {
-        padding-top: 35px;
-        padding-bottom: 50px;
+        padding-top: 15px;
+        padding-bottom: 30px;
     }
     .product_choiced_section-2 {
-        max-height: 356px;
+        background-size: 100% 325px;  
     }
     .product_choiced_section-3 .container {
-        padding-top: 89px;
+        padding-top: 0px;
+        padding-bottom: 30px;
     }
     .product_choiced_section-3 ul {
         margin-top: 20px;
     }
     /*/////////////////////////////////////////////////////////*/
     .production_section-1 .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .production_section-2 .container {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .production_section-2 .text {
+        line-height: 20px;
+    }
+    .production_section-2 .text_size-16 {
+        font-size: 14px;
+    }
     .production_section-2 .container>.text:first-of-type>div:first-of-type{
-        width: 503px;
+        width: 100%;
     }
     .production_section-2 .container>.text:first-of-type>div:last-of-type img{
-        width: 347px;
+        width: 219px;
     }
     .production_section-2 .container .head_ul {
-        margin-top: 20px;
+        margin-top: 15px;
+    }
+    .production_section-2 .container .text_size-18{
+        font-size: 16px;
     }
     .production_section-2 ul li {
         margin-top: 10px;
     }
+    .production_section-3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .production_section-3 .container {
-        padding-top: 45px;
-        padding-bottom: 45px;
+        padding-top: 0px;
+        padding-bottom: 20px;
+        overflow: auto;
+        scrollbar-color: #FF8F32 #E5E5E5;
+        scrollbar-width: thin;
+    }
+    .production_section-3 .container::-webkit-scrollbar {
+        height: 5px;
+    }
+    .production_section-3 .container::-webkit-scrollbar-track {
+        background: #E5E5E5;
+        border-radius: 3px;
+    }
+    .production_section-3 .container::-webkit-scrollbar-thumb {
+        background: #FF8F32;
+        border-radius: 3px;
+    }
+    .production_section-3 .container table{
+        width: 890px;
     }
     .production_section-4 .container {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+    }
+    .production_section-4 .container .text {
+        line-height: 20px;
+    }
+    .production_section-4 .container .text_size-16 {
+        font-size: 14px;
     }
     .production_section-5 {
-        max-height: 450px;
+        background-size: 100% 402px;
+    }
+    .production_section-5 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .form-2 {
-        width: 425px;
+        width: 372px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     .form-2>div {
-        width: 405px;
-        padding-left: 46px;
-        padding-right: 46px;
-        padding-bottom: 25px;
+        width: 362px;
+        padding-left: 26px;
+        padding-right: 26px;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
     .form-2 .form-group:nth-of-type(6) {
         margin-top: 5px;
@@ -2524,24 +2563,62 @@ footer .text a:hover{
     }
     .buy_grafit_section-2 .container {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+    }
+    .buy_grafit_section-2 div:nth-of-type(2) {
+        margin-top: 0px;
+    }
+    .buy_grafit_section-2 .container>.text>div:nth-of-type(2) {
+        margin-top: 20px;
+    }
+    .buy_grafit_section-2 .text {
+        line-height: 20px;
+    }
+    .buy_grafit_section-2 .text_size-16 {
+        font-size: 14px;
+    }
+    .buy_grafit_section-2 .text>.text_size-18 {
+        line-height: 24px;
+        font-size: 16px;
     }
     .buy_grafit_section-2 .container .head_ul {
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .buy_grafit_section-2 ul {
         margin-top: 10px;
     }
     .buy_grafit_section-2 ul li {
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .buy_grafit_section-2 ol {
         margin-top: 10px;
     }
     .buy_grafit_section-2 ol li{
-        margin-top: 10px;
+        margin-top: 5px;
+    }
+    .buy_grafit_section-2 .table_scroll{
+        padding-bottom: 20px;
+        padding-top: 0px;
+        overflow: auto;
+        scrollbar-color: #FF8F32 #E5E5E5;
+        scrollbar-width: thin;
+    }
+    .buy_grafit_section-2 .table_scroll .text_size-16{
+        font-size: 16px;
+    }
+    .buy_grafit_section-2 .table_scroll::-webkit-scrollbar {
+        height: 5px;
+    }
+    .buy_grafit_section-2 .table_scroll::-webkit-scrollbar-track {
+        background: #E5E5E5;
+        border-radius: 3px;
+    }
+    .buy_grafit_section-2 .table_scroll::-webkit-scrollbar-thumb {
+        background: #FF8F32;
+        border-radius: 3px;
     }
     .buy_grafit_section-2 table {
+        width: 890px;
         margin-top: 30px;
     }
     .buy_grafit_section-2 table th:first-of-type {
@@ -2551,13 +2628,11 @@ footer .text a:hover{
         width: 25%;
     }
     .buy_grafit_section-3 {
-        max-height: 450px;
+        background-size: 100% 402px;
     }
     .buy_grafit_section-3 .container {
-        padding-top: 45px;
-    }
-    .buy_grafit_section-4 .container {
-        padding-top: 116px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     /*/////////////////////////////////////////////////////////*/
     .guide_section-1 .container {
@@ -2565,11 +2640,16 @@ footer .text a:hover{
         padding-bottom: 40px;
     }
     .guide_section-2 .container {
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .list_link-2 {
-        margin-top: 15px;
+        margin-top: 30px;
     }
+    .guide_section-2 .list_link-2:before {
+        content: "";
+        width: 219px;
+        order: 99999;
+      }
     .guide_section-2 .list_link-2 .link-2>div:last-of-type {
         padding-bottom: 20px;
     }
@@ -2586,10 +2666,11 @@ footer .text a:hover{
         font-size: 14px;
     }
     .guide_section-3 {
-        max-height: 450px;
+        background-size: 100% 402px;
     }
-    .guide_section-4 .container {
-        padding-top: 116px;
+    .guide_section-3 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     /*/////////////////////////////////////////////////////////*/
     .contacts_section-1 .container {
@@ -2598,10 +2679,22 @@ footer .text a:hover{
     }
     .contacts_section-2 .container {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .contacts_section-2 .container>.map {
-        width: 502px;
+        width: 405px;
+    }
+    .contacts_section-2 .container>.text {
+        width: 305px;
+    }
+    .contacts_section-2 .text {
+        line-height: 20px;
+    }
+    .contacts_section-2 .text_size-16 {
+        font-size: 14px;
+    }
+    .contacts_section-2 .text .text_size-20 {
+        font-size: 16px;
     }
     .contacts_section-2 .info {
         margin-top: 15px;
@@ -2612,6 +2705,9 @@ footer .text a:hover{
     .contacts_section-2 .info .text {
         line-height: 20px;
     }
+    .contacts_section-2 .text .text_size-18 {
+        font-size: 16px;
+    }
     .contacts_section-2 .container .head_ul {
         margin-top: 20px;
     }
@@ -2619,17 +2715,23 @@ footer .text a:hover{
         margin-top: 15px;
     }
     .contacts_section-3 {
-        max-height: 1483px;
+        background-size: 100% 1577px;
     }
     .contacts_section-3 .container {
-        padding-top: 45px;
+        padding-top: 30px;
+    }
+    .contacts_section-3 .container>.text_size-20:first-of-type {
+        font-size: 16px;
+    }
+    .contacts_section-3 .container>.text:first-of-type {
+        line-height: 20px;
     }
     .contacts_section-3 .list_link-4 {
-        margin-top: 15px;
+        margin-top: 5px;
     }
     .contacts_section-3 .list_link-4 .link-4 {
         margin-top: 15px;
-        min-width: 425px;
+        min-width: 348px;
         padding: 30px;
     }
     .contacts_section-3 .text_size-16{
@@ -2645,22 +2747,808 @@ footer .text a:hover{
         line-height: 20px;
     }
     .contacts_section-4 .container {
-        padding-top: 155px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .contacts_section-4 .container>div:first-of-type {
-        width: 433px;
+        width: 348px;
     }
     .contacts_section-4 .container>div>.text_size-24 {
         font-size: 18px;
     }
     .contacts_section-4 .container>div>.text {
-        line-height: 22px;
-        margin-top: 30px;
+        line-height: 20px;
+        margin-top: 15px;
     }
 }
 @media (max-width: 767px) {
+    .container{
+        max-width:328px;
+    }
+    header .header_logo {
+        width: 89px;
+    }
+    header .info {
+        display: none;
+    }
+    header .header_butn .text_btn {
+        line-height: 15px;
+    }
+    header .header_butn .text_btn {
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+    }
+    header .btn-shadow {
+        width: 95%;
+        padding-top: 2px;
+    }
+    header .header_butn .text_size-18{
+        font-size: 12px;
+    }
+    header .header_butn {
+        width: 144px;
+    }
+    nav .container {
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+    nav .menu{
+        display: none;
+    }
+    nav .menu_open-2{
+        display: block;
+    }
+    nav .menu-2{
+        display: block;
+        position: absolute;
+        background: #886344;
+        width: 100%;
+        text-align: center;
+        height:0px;
+        overflow: hidden;
+        z-index: 2;
+        transition: height .7s ease-in-out;
+    }
+    nav .menu_active-2 {
+        border-top: 1px solid #A98262;
+        height:212px;
+    }
+    nav .menu-2 div{
+        margin-top: 15px;
+    }
+    nav .d-flex input {
+        width: 155px;
+        line-height: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    } 
+    nav .d-flex .text_size-14{
+        font-size: 10px;
+    }
+    nav .d-flex .search {
+        width: 12px;
+        margin-left: 135px;
+    }
+    nav .d-flex .search {
+        top: 24%;
+    }
+    .section-1 .container {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .section-1 .text_left {
+        width: 328px;
+        line-height: 22px;
+    }
+    .section-1 .text_left .text_size-48{
+        font-size: 18px;
+    }
+    .section-1 .text_left>.text:last-of-type {
+        margin-top: 10px;
+    }
+    .section-1 .text_left>.text {
+        line-height: 17px;
+    }
+    .section-1 .text_left .text_size-20{
+        font-size: 14px;
+    }
+    .section-1 .form-1{
+        margin-top: 20px;
+    } 
+    .form-1 {
+        
+        width: 328px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .form-1>div {
+        width: 319px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .form-1>div form .text_size-20{
+        font-size: 14px;
+    }
+    .form-1 legend{
+        line-height: 17px;
+        margin-bottom: 15px;
+    }
+    .form-1 .form-group {
+        margin-top: 10px;
+    }
+    .form-1 form .form-group:nth-of-type(3) {
+        margin-top: 5px;
+    }
+    .form-1 .form-control {
+        padding: 11px 20px;
+        line-height: 14px;
+    }
+    .form-1>div form .text_size-14{
+        font-size: 12px;
+    }
+    .form-1 .form-check .form-check-input {
+        width: 14px;
+        height: 14px;
+    }
+    .form-1>div form .text_size-12{
+        font-size: 9px;
+    }
     
+    .form-1 .form-check label {
+        line-height: 12px;
+    }
+    .form-1 .form_butn {
+        padding-top: 10px;
+        width: 288px;
+    }
+    .form-1 .form_butn .text_btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+    .form-1 .form_butn .text_size-18{
+        font-size: 16px;
+    }
+    .container .title-1 .text {
+        line-height: 22px;
+    }
+    .title-1 .text_size-36{
+        font-size: 18px;
+    }
+    .section-2 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-2 .text_size-20{
+        font-size: 14px;
+    }
+    .section-2 .list_link-1 {
+        margin-top: 10px;
+    }
+    .section-2 .list_link-1 a {
+        line-height: 17px;
+    }
+    .section-2 .list_link-1 .link-1 {
+        width: 326px;
+        min-height: 189px;
+        margin-top: 10px;
+    }
+    .section-2 .list_link-1 .img-1 {
+        background: url(/image/product1.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-2 {
+        background: url(/image/product2.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-3 {
+        background: url(/image/product3.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-4 {
+        background: url(/image/product4.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-5 {
+        background: url(/image/product5.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-6 {
+        background: url(/image/product6.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-7 {
+        background: url(/image/product7.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-8 {
+        background: url(/image/product8.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-2 .list_link-1 .img-9 {
+        background: url(/image/product9.png) no-repeat 0 0;
+        background-size: contain;
+    }
+    .section-3 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-3 .col {
+        margin-top: 25px;
+    }
+    .section-3 .col img {
+        width: 40px;
+        height: 40px;
+        border-radius: 45px;
+    }
+    .section-3 .text {
+        line-height: 17px;
+    }
+    .section-3 .text_size-20{
+        font-size:14px;
+    }
+    .section-3 .col>div {
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    .section-3 .col>div {
+        padding-right: 15px;
+    }
+    .section-4 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-4 .slider {
+        margin-top: 0px;
+    }
+    .section-4 .swiper-slide .col-parthner {
+        width: 318px;
+        height: 222px;
+        margin-right: 20px;
+    }
+    .section-4 .swiper-pagination-bullet {
+        width: 9.63px;
+        height: 9.63px;
+        margin-left: 8.5px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 0;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0;
+    }
+    .section-5 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-5 .contacts_form {
+        width: 328px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .section-5 .contacts_form>div {
+        width: 318px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section-5 .container>.contacts_form>div:nth-of-type(1)>div:nth-of-type(3) {
+        display: none;
+    }
+    .section-5 .container>.contacts_form>div:nth-of-type(1)>div:nth-of-type(4) {
+        display: none;
+    }
+    footer .navbar{
+        display: block;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    footer .footer_logo{
+        width: 121px;
+    }
+    footer .text {
+        line-height: 15px;
+    }
+    footer .menu {
+        display: block;
+    }
+    footer .menu div {
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    footer .menu .text_size-16 {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    /*//////////////////////////////////////////////*/
+    .about_company_section-1 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .container .title-2 .text {
+        line-height: 22px;
+    }
+    .container .title-2 .text_size-36 {
+        font-size: 18px;
+    }
+    .title-2 .text {
+        max-width: 278px;
+    }
+    .container .title-2 .line {
+        width: 41px;
+        padding-top: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .container .title-2 .line img{
+        width: 100%;
+    }
+    .about_company_section-2 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about_company_section-2 .container .title-2 {
+        padding-top: 5px;
+    }
+    .about_company_section-2 .container .text {
+        line-height: 24px;
+    }
+    .about_company_section-2 .container .text_size-16 {
+        font-size: 16px;
+    }
+    .about_company_section-3 .container {
+        padding-top: 20px;
+    }
+    .about_company_section-3 {
+        background-size: 100% 1087px;
+    }
+    .about_company_section-3 .list_link-2 {
+        margin-top: 5px;
+        justify-content: center;
+    }
+    .list_link-2 .col:nth-of-type(1)>.link-2 {
+        margin-top: 15px;
+    }
+    .list_link-2 .col:nth-of-type(2)>.link-2 {
+        margin-top: 15px;
+    }
+    .list_link-2 .col:nth-of-type(3)>.link-2 {
+        margin-top: 15px;
+    }
+    .list_link-2 .link-2 {
+        margin-top: 15px;
+        width: 219px;
+    }
+    .about_company_section-3 .list_link-2:before {
+        content: "";
+        width: 219px;
+        order: 99999;
+      }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text{
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text:first-of-type{
+        line-height: 17px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text:last-of-type{
+        line-height: 17px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text_size-18{
+        font-size: 14px;
+    }
+    .about_company_section-3 .list_link-2 .link-2>div:last-of-type .text_size-16{
+        font-size: 14px;
+    }
+    .about_company_section-4 .container {
+        display: block;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .about_company_section-4 .container>div:first-of-type {
+        width: 328px;
+    }
+    .about_company_section-4 .container>div>.text {
+        line-height: 17px;
+        margin-top: 20px;
+    }
+    .about_company_section-4 .container>div>.text_size-24 {
+        font-size: 14px;
+    }
+    .about_company_section-4 .form-1 .form-group:first-of-type{
+        margin-top: 0;
+    }
+    .about_company_section-4 .form-1{
+        margin-top: 15px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .products_section-1 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .products_section-2 {
+        background-size: 100% 677px;  
+    }
+    .products_section-2 .container {
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .list_link-3 a {
+        line-height: 20px;
+    }
+    .list_link-3 .link-3 .text_size-20{
+        font-size: 16px;
+    }
+    .list_link-3 .link-3 {
+        margin-top: 15px;
+        width: 328px;
+        min-height: 170px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .product_choiced_section-1 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .product_choiced_section-2 .container {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .product_choiced_section-2 {
+        background-size: 100% 677px;  
+    }
+    .product_choiced_section-3 .container {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .product_choiced_section-3 ul {
+        margin-top: 15px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .production_section-1 .container {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .title-2 .text {
+        max-width: 203px;
+    }
+    .production_section-2 .container {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .production_section-2 .container>.text:first-of-type>div:first-of-type{
+        width: 100%;
+    }
+    .production_section-2 .container>.text:first-of-type>div:last-of-type img{
+        width: 328px;
+        margin-bottom: 15px;
+    }
+    .production_section-2 .container .head_ul {
+        margin-top: 15px;
+    }
+    .production_section-2 ul li {
+        margin-top: 10px;
+    }
+    .production_section-3 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .production_section-3 .container {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        overflow: auto;
+        scrollbar-color: #FF8F32 #E5E5E5;
+        scrollbar-width: thin;
+    }
+    .production_section-3 .container::-webkit-scrollbar {
+        height: 5px;
+    }
+    .production_section-3 .container::-webkit-scrollbar-track {
+        background: #E5E5E5;
+        border-radius: 3px;
+    }
+    .production_section-3 .container::-webkit-scrollbar-thumb {
+        background: #FF8F32;
+        border-radius: 3px;
+    }
+    .production_section-3 .container table{
+        width: 890px;
+    }
+    .production_section-3 table thead {
+        line-height: 17px;
+    }
+    .production_section-3 table .text_size-16 {
+        font-size: 14px;
+    }
+    .production_section-4 .container {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    .production_section-4 .container .text {
+        line-height: 20px;
+    }
+    .production_section-4 .container .text_size-16 {
+        font-size: 14px;
+    }
+    .production_section-5 {
+        background-size: 100% 536px;
+    }
+    .production_section-5 .container {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .form-2 {
+        width: 328px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .form-2>div {
+        width: 319px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .form-2 .form-group:nth-of-type(6) {
+        margin-top: 5px;
+    }
+    .form-2 .form-group:last-of-type {
+        margin-top: 10px;
+    }
+    .form-2 .form-control {
+        padding: 13px 20px;
+        line-height: 14px;
+    }
+    .form-2>div form .text_size-14{
+        font-size: 12px;
+    }
+    .form-2 .form-check .form-check-input {
+        width: 14px;
+        height: 14px;
+    }
+    .form-2>div form .text_size-12{
+        font-size: 9px;
+    }
+    
+    .form-2 .form-check label {
+        line-height: 12px;
+    }
+    .form-2 .form_butn {
+        padding-top: 10px;
+        width: 278px;
+    }
+    .form-1 .form_butn .text_btn {
+        line-height: 20px;
+    }
+    .form-1 .form_butn .text_size-18{
+        font-size: 16px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .buy_grafit_section-1 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .buy_grafit_section-2 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .buy_grafit_section-2 div:nth-of-type(2) {
+        margin-top: 0px;
+    }
+    .buy_grafit_section-2 .container>.text>div:nth-of-type(2) {
+        margin-top: 15px;
+    }
+    .buy_grafit_section-2 .text {
+        line-height: 20px;
+    }
+    .buy_grafit_section-2 .text_size-16 {
+        font-size: 14px;
+    }
+    .buy_grafit_section-2 .text>.text_size-18 {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .buy_grafit_section-2 .container .head_ul {
+        margin-top: 15px;
+    }
+    .buy_grafit_section-2 ul {
+        margin-top: 10px;
+    }
+    .buy_grafit_section-2 ul li {
+        margin-top: 5px;
+    }
+    .buy_grafit_section-2 ol {
+        margin-top: 10px;
+    }
+    .buy_grafit_section-2 ol li{
+        margin-top: 5px;
+    }
+    .buy_grafit_section-2 .table_scroll{
+        padding-bottom: 20px;
+        padding-top: 0px;
+        overflow: auto;
+        scrollbar-color: #FF8F32 #E5E5E5;
+        scrollbar-width: thin;
+    }
+    .buy_grafit_section-2 .table_scroll .text_size-16{
+        font-size: 16px;
+    }
+    .buy_grafit_section-2 .table_scroll::-webkit-scrollbar {
+        height: 5px;
+    }
+    .buy_grafit_section-2 .table_scroll::-webkit-scrollbar-track {
+        background: #E5E5E5;
+        border-radius: 3px;
+    }
+    .buy_grafit_section-2 .table_scroll::-webkit-scrollbar-thumb {
+        background: #FF8F32;
+        border-radius: 3px;
+    }
+    .buy_grafit_section-2 table {
+        width: 890px;
+        margin-top: 20px;
+    }
+    .buy_grafit_section-2 table th:first-of-type {
+        width: 25%;
+    }
+    .buy_grafit_section-2 table th:last-of-type {
+        width: 25%;
+    }
+    .buy_grafit_section-3 {
+        background-size: 100% 402px;
+    }
+    .buy_grafit_section-3 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .guide_section-1 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .guide_section-2 .container {
+        padding-bottom: 25px;
+    }
+    .list_link-2 {
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .guide_section-2 .list_link-2:before {
+        content: "";
+        width: 219px;
+        order: 99999;
+      }
+    .guide_section-2 .list_link-2 .link-2>div:last-of-type {
+        padding-bottom: 20px;
+    }
+    .guide_section-2 .list_link-2 .link-2>div:last-of-type .text:first-of-type {
+        line-height: 20px;
+    }
+    .guide_section-2 .list_link-2 .link-2>div:last-of-type .text_size-18 {
+        font-size: 16px;
+    }
+    .guide_section-2 .list_link-2 .link-2>div:last-of-type .text:last-of-type {
+        line-height: 17px;
+    }
+    .guide_section-2 .list_link-2 .link-2>div:last-of-type .text_size-16 {
+        font-size: 14px;
+    }
+    .guide_section-3 {
+        background-size: 100% 536px;
+    }
+    .guide_section-3 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /*/////////////////////////////////////////////////////////*/
+    .contacts_section-1 .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contacts_section-2 .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: block;
+    }
+    .contacts_section-2 .container>.map {
+        margin-top: 25px;
+        width: 328px;
+    }
+    .contacts_section-2 .container>.text {
+        width: 328px;
+    }
+    .contacts_section-2 .text {
+        line-height: 20px;
+    }
+    .contacts_section-2 .text_size-16 {
+        font-size: 14px;
+    }
+    .contacts_section-2 .text .text_size-20 {
+        font-size: 16px;
+    }
+    .contacts_section-2 .info {
+        margin-top: 15px;
+    }
+    .contacts_section-2 .info>div {
+        margin-top: 10px;
+    }
+    .contacts_section-2 .info .text {
+        line-height: 20px;
+    }
+    .contacts_section-2 .text .text_size-18 {
+        font-size: 16px;
+    }
+    .contacts_section-2 .container .head_ul {
+        margin-top: 20px;
+    }
+    .contacts_section-2 ul {
+        margin-top: 15px;
+    }
+    .contacts_section-3 {
+        background-size: 100% 2930px;
+    }
+    .contacts_section-3 .container {
+        padding-top: 25px;
+    }
+    .contacts_section-3 .container>.text_size-20:first-of-type {
+        font-size: 20px;
+    }
+    .contacts_section-3 .container>.text:first-of-type {
+        line-height: 22px;
+    }
+    .contacts_section-3 .list_link-4 {
+        margin-top: 5px;
+    }
+    .contacts_section-3 .list_link-4 .link-4 {
+        margin-top: 15px;
+        min-width: 328px;
+        padding: 20px;
+    }
+    .contacts_section-3 .text_size-16{
+        font-size: 14px;
+    }
+    .contacts_section-3 .text{
+        line-height: 17px;
+    }
+    .contacts_section-3 .list_link-4 .link-4>.text_size-18{
+        font-size: 16px;
+    }
+    .contacts_section-3 .list_link-4 .link-4>div:first-of-type {
+        line-height: 20px;
+    }
+    .contacts_section-4 .container {
+        display: block;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .contacts_section-4 .container>div:first-of-type {
+        width: 328px;
+    }
+    .contacts_section-4 .container>div>.text_size-24 {
+        font-size: 18px;
+    }
+    .contacts_section-4 .container>div>.text {
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .contacts_section-4 .form-1 {
+        margin-top: 15px;
+    }
 }
 @media (max-width: 575px) {
 
